@@ -1,18 +1,23 @@
 {
-  "generatedAt": "2026-10-05T08:02:48.585754+00:00",
+  "generatedAt": "2026-10-06T06:01:41.297236+00:00",
   "provider": "Tavily + official APIs",
+  "edition": {
+    "date": "2026-10-06",
+    "windowStart": "2026-10-05T07:00:00+08:00",
+    "windowEnd": "2026-10-06T06:59:59+08:00"
+  },
   "jobTrends": {
     "state": "compared",
-    "asOf": "2026-10-05",
-    "previousAsOf": "2026-10-04",
-    "current": 3,
+    "asOf": "2026-10-06",
+    "previousAsOf": "2026-10-05",
+    "current": 5,
     "newlySeen": [
-      "Engineering Manager, Core Experimentation"
-    ],
-    "missing": [
-      "Product Engineer, Cyber",
+      "Product Designer, Engineering Acceleration",
       "Job Application for Applied AI, Research Engineer at",
       "Job Application for Research Engineer/Research Scientist, Pre training at"
+    ],
+    "missing": [
+      "Engineering Manager, Core Experimentation"
     ],
     "changed": []
   },
@@ -1077,296 +1082,6 @@
       }
     },
     {
-      "id": "live-be5cc65c3680",
-      "title": "Research Engineer",
-      "category": "Talent",
-      "priority": "Medium",
-      "date": "Current opening",
-      "readTime": "7 min",
-      "source": "OpenAI Careers",
-      "sourceId": "openai-careers",
-      "intelligenceType": "talent",
-      "fact": "OpenAI is hiring for the position of Research Engineer in San Francisco.",
-      "summary": "The Research Engineer role involves building AI systems with unprecedented performance. Candidates should have strong programming skills and experience in large distributed systems.",
-      "summaryKind": "ai",
-      "highlights": [
-        "The role requires designing and implementing large-scale distributed machine learning systems.",
-        "Candidates should be excited about OpenAI's research approach.",
-        "Compensation ranges from $250K to $445K plus equity."
-      ],
-      "topics": [
-        "OpenAI",
-        "AI Search",
-        "Coding"
-      ],
-      "roles": {
-        "Executive": {
-          "score": 64,
-          "why": "Review the first-party evidence before using this signal in a product or market decision."
-        },
-        "HR & Recruiting": {
-          "score": 97,
-          "why": "Treat a single opening as a current demand signal; verify a trend only after repeated observations."
-        }
-      },
-      "talent": {
-        "skills": [
-          "Python",
-          "ML infrastructure",
-          "Distributed systems"
-        ],
-        "roles": [
-          "ML Infrastructure Engineer",
-          "Research Engineer"
-        ],
-        "signal": "One official opening is evidence of current demand, not proof of a wider hiring trend. Compare repeated openings and changes over time.",
-        "action": "Validate this signal against current job descriptions and interview feedback."
-      },
-      "sources": [
-        {
-          "type": "Official job listing",
-          "name": "Research Engineer",
-          "url": "https://openai.com/careers/research-engineer-san-francisco",
-          "signal": "Primary facts"
-        }
-      ],
-      "ingestion": "Tavily · official careers",
-      "claims": {
-        "confirmed": [
-          "About the Role As a Research Engineer here, you will be responsible for building AI systems that can perform previously impossible tasks or achieve unprecedented levels of performance. We're looking for people with solid engineering skills (for example designing, implementing, and improving a massive scale distributed machine learning system), writing bug free machine learning code, and building the science behind…",
-          "here, you will be responsible for building AI systems that can perform previously impossible tasks or achieve unprecedented levels of…",
-          "We're looking for people with solid engineering skills (for example designing, implementing, and improving a massive scale distributed machine…",
-          "The most outstanding deep learning results are increasingly attained at a massive scale, and these results require engineers who are…"
-        ],
-        "vendor": [],
-        "community": [],
-        "questions": [
-          "Which capability, reliability, and adoption claims still need independent verification?"
-        ]
-      },
-      "evidenceStatus": "Official source",
-      "summaryProvider": "GPT-4o mini · LaoZhang",
-      "translations": {
-        "zh": {
-          "title": "招聘研究工程师",
-          "fact": "OpenAI在旧金山招聘研究工程师，负责构建高性能的AI系统。",
-          "summary": "研究工程师的职责是开发前所未有性能的AI系统，要求具备强大的编程技能和大规模分布式系统的经验。该职位的薪资范围为25万美元至44.5万美元，并提供股权。",
-          "highlights": [
-            "该职位要求设计和实施大规模分布式机器学习系统。",
-            "候选人应对OpenAI的研究方法充满热情。",
-            "薪资范围为25万美元至44.5万美元，外加股权。"
-          ],
-          "claims": {
-            "confirmed": [
-              "OpenAI致力于确保通用人工智能惠及全人类。",
-              "该职位提供灵活的带薪休假和多项福利。"
-            ],
-            "vendor": [
-              "OpenAI提供医疗、牙科和视力保险，401(k)退休计划，带薪父母假等福利。"
-            ],
-            "community": [],
-            "questions": [
-              "该职位是否有特定的学历要求？",
-              "候选人需要具备哪些具体的编程语言技能？",
-              "是否有远程工作的选项？"
-            ]
-          }
-        }
-      },
-      "trendStatus": "Continuing"
-    },
-    {
-      "id": "live-322dcf635619",
-      "title": "Research Engineer, Retrieval & Search, Applied Engineering",
-      "category": "Talent",
-      "priority": "Medium",
-      "date": "Jan 30",
-      "readTime": "8 min",
-      "source": "OpenAI Careers",
-      "sourceId": "openai-careers",
-      "intelligenceType": "talent",
-      "fact": "OpenAI is hiring a Research Engineer for retrieval and search problems in San Francisco.",
-      "summary": "OpenAI seeks an experienced Research Engineer to enhance retrieval and search capabilities for its API and ChatGPT. The role involves collaboration with various teams to develop and deploy search methodologies.",
-      "summaryKind": "ai",
-      "highlights": [
-        "The position focuses on retrieval and search algorithms.",
-        "Candidates should have experience with machine learning systems and search indices.",
-        "The role offers a salary range of $293K to $585K plus equity."
-      ],
-      "topics": [
-        "OpenAI",
-        "AI Search"
-      ],
-      "roles": {
-        "Executive": {
-          "score": 64,
-          "why": "Review the first-party evidence before using this signal in a product or market decision."
-        },
-        "HR & Recruiting": {
-          "score": 97,
-          "why": "Treat a single opening as a current demand signal; verify a trend only after repeated observations."
-        }
-      },
-      "talent": {
-        "skills": [
-          "Python",
-          "Applied AI",
-          "Systems thinking"
-        ],
-        "roles": [
-          "AI Engineer",
-          "AI Product Manager"
-        ],
-        "signal": "One official opening is evidence of current demand, not proof of a wider hiring trend. Compare repeated openings and changes over time.",
-        "action": "Validate this signal against current job descriptions and interview feedback."
-      },
-      "sources": [
-        {
-          "type": "Official job listing",
-          "name": "Research Engineer, Retrieval & Search, Applied Engineering",
-          "url": "https://openai.com/careers/research-engineer-retrieval-and-search-applied-engineering-san-francisco",
-          "signal": "Primary facts"
-        }
-      ],
-      "ingestion": "Tavily · official careers",
-      "claims": {
-        "confirmed": [
-          "We seek to learn from deployment and distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. Safety is more important to us than unfettered growth.",
-          "Applied AI Engineering San Francisco Apply now About the Team We bring OpenAI's technology to the world through products like ChatGPT and the…",
-          "We seek to learn from deployment and distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely.",
-          "Safety is more important to us than unfettered growth."
-        ],
-        "vendor": [],
-        "community": [],
-        "questions": [
-          "Which capability, reliability, and adoption claims still need independent verification?"
-        ]
-      },
-      "evidenceStatus": "Official source",
-      "summaryProvider": "GPT-4o mini · LaoZhang",
-      "translations": {
-        "zh": {
-          "title": "招聘研究工程师，专注于检索与搜索",
-          "fact": "OpenAI在旧金山招聘一名研究工程师，专注于检索和搜索问题。",
-          "summary": "OpenAI正在寻找一位经验丰富的研究工程师，以增强其API和ChatGPT的检索与搜索能力。该职位涉及与多个团队合作，开发和部署搜索方法。",
-          "highlights": [
-            "该职位专注于检索和搜索算法。",
-            "候选人应具备机器学习系统和搜索索引的经验。",
-            "该职位的薪资范围为29.3万美元至58.5万美元，并提供股权。"
-          ],
-          "claims": {
-            "confirmed": [],
-            "vendor": [
-              "OpenAI致力于确保通用人工智能惠及全人类。",
-              "OpenAI是一个平等机会雇主，不会基于种族、宗教、性别等歧视申请者。"
-            ],
-            "community": [],
-            "questions": [
-              "该职位是否需要特定的学位或认证？",
-              "工作地点是否可以远程？",
-              "是否有关于职业发展的具体支持或培训计划？"
-            ]
-          }
-        }
-      },
-      "trendStatus": "Continuing"
-    },
-    {
-      "id": "live-ecb3cb309f77",
-      "title": "Engineering Manager, Core Experimentation",
-      "category": "Talent",
-      "priority": "Medium",
-      "date": "Jul 10",
-      "readTime": "8 min",
-      "source": "OpenAI Careers",
-      "sourceId": "openai-careers",
-      "intelligenceType": "talent",
-      "fact": "OpenAI is hiring an Engineering Manager for the Statsig team to lead product engineering efforts post-acquisition.",
-      "summary": "The Engineering Manager will oversee the Statsig product engineering organization at OpenAI. This role involves defining strategies for experimentation and analytics to enhance product development.",
-      "summaryKind": "ai",
-      "highlights": [
-        "The Statsig team builds systems for experimentation and analytics at OpenAI.",
-        "The Engineering Manager will establish a multi-year product engineering strategy.",
-        "The role requires substantial engineering leadership experience."
-      ],
-      "topics": [
-        "OpenAI",
-        "AI Search"
-      ],
-      "roles": {
-        "Executive": {
-          "score": 64,
-          "why": "Review the first-party evidence before using this signal in a product or market decision."
-        },
-        "HR & Recruiting": {
-          "score": 97,
-          "why": "Treat a single opening as a current demand signal; verify a trend only after repeated observations."
-        }
-      },
-      "talent": {
-        "skills": [
-          "Python",
-          "Applied AI",
-          "Systems thinking"
-        ],
-        "roles": [
-          "AI Engineer",
-          "AI Product Manager"
-        ],
-        "signal": "One official opening is evidence of current demand, not proof of a wider hiring trend. Compare repeated openings and changes over time.",
-        "action": "Validate this signal against current job descriptions and interview feedback."
-      },
-      "sources": [
-        {
-          "type": "Official job listing",
-          "name": "Engineering Manager, Core Experimentation",
-          "url": "https://openai.com/careers/engineering-manager-core-experimentation-seattle",
-          "signal": "Primary facts"
-        }
-      ],
-      "ingestion": "Tavily · official careers",
-      "claims": {
-        "confirmed": [
-          "Our work sits on the critical path for how product, engineering, research, and go to market teams learn from real world usage and make high confidence decisions. [...] About the Role We are looking for an Engineering Manager, Statsig Product to lead the product engineering organization responsible for Statsig’s post acquisition journey at OpenAI.",
-          "Applied AI Seattle Apply now About the Team The Statsig team within OpenAI builds the experimentation, feature rollout, dynamic configuration,…",
-          "Our work sits on the critical path for how product, engineering, research, and go to market teams learn from real world usage and make high…",
-          "Statsig began as an independent company focused on helping builders move faster through trustworthy experimentation and feature management."
-        ],
-        "vendor": [],
-        "community": [],
-        "questions": [
-          "Which capability, reliability, and adoption claims still need independent verification?"
-        ]
-      },
-      "evidenceStatus": "Official source",
-      "summaryProvider": "GPT-4o mini · LaoZhang",
-      "translations": {
-        "zh": {
-          "title": "工程经理，核心实验",
-          "fact": "OpenAI正在招聘Statsig团队的工程经理，负责收购后的产品工程工作。",
-          "summary": "工程经理将领导OpenAI的Statsig产品工程组织，定义实验和分析的策略，以提升产品开发效率。该职位需要丰富的工程领导经验。",
-          "highlights": [
-            "Statsig团队为OpenAI构建实验和分析系统。",
-            "工程经理将建立多年的产品工程战略。",
-            "该职位要求丰富的工程领导经验。"
-          ],
-          "claims": {
-            "confirmed": [],
-            "vendor": [
-              "Statsig团队在OpenAI负责实验、功能发布和分析系统的构建。"
-            ],
-            "community": [],
-            "questions": [
-              "该职位的具体工作职责和期望是什么？",
-              "如何衡量Statsig团队的成功？",
-              "工程经理将如何与其他团队合作？"
-            ]
-          }
-        }
-      },
-      "trendStatus": "New"
-    },
-    {
       "id": "live-f8acd57c53b5",
       "title": "AutoClaw vs Manus vs Self Hosted OpenClaw: Which Desktop AI Agent Fits Your Workflow? AutoClaw Blog",
       "category": "Model",
@@ -2247,6 +1962,312 @@
           }
         }
       }
+    },
+    {
+      "id": "live-3cbec84de8bf-2026-10-06",
+      "title": "Building advertising for the way people use AI",
+      "category": "Model",
+      "priority": "High",
+      "date": "Oct 05",
+      "readTime": "8 min",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "intelligenceType": "market",
+      "fact": "OpenAI is introducing a new visual ad format in ChatGPT to help users explore products and services, along with expanded measurement tools to assess ad impact.",
+      "summary": "OpenAI is launching a new visual ad format in ChatGPT to enhance product discovery. This initiative includes improved measurement tools for advertisers.",
+      "summaryKind": "ai",
+      "highlights": [
+        "ChatGPT reaches 1.2 billion users weekly, making it the largest AI-native consumer platform.",
+        "The new ad format will be tested in the US with an initial group of advertisers.",
+        "Partnerships with measurement companies like Hightouch and Tealium are established to enhance ad impact understanding."
+      ],
+      "topics": [
+        "OpenAI"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Building advertising for the way people use AI",
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "Today’s updates are part of our broader ambition to help people discover products and services, evaluate options, and make decisions in ChatGPT. We will continue to evolve our ad platform with new formats and capabilities to help businesses reach customers in useful and relevant ways and provide opportunities for businesses of all sizes to grow and thrive.",
+          "A new visual ad format helps people explore products and services, with expanded measurement to help businesses understand ad impact.",
+          "Start advertising in ChatGPT Loading… Audio 1 Share Bringing products and services to life Bringing products and services to life Measuring the…",
+          "ChatGPT reaches 1.2 billion people each week, making it the world’s largest AI native consumer platform."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "为 AI 使用方式构建广告",
+          "fact": "OpenAI 正在 ChatGPT 中推出新的视觉广告格式，以帮助用户探索产品和服务，并扩展测量工具以评估广告影响。",
+          "summary": "OpenAI 在 ChatGPT 中推出新的视觉广告格式，以增强产品发现能力。此举还包括改进的测量工具，帮助广告商评估广告效果。",
+          "highlights": [
+            "ChatGPT 每周吸引 12 亿用户，是最大的 AI 原生消费平台。",
+            "新的广告格式将在美国进行测试，初始广告商将参与。",
+            "与 Hightouch 和 Tealium 等测量公司的合作已建立，以增强广告效果理解。"
+          ],
+          "claims": {
+            "confirmed": [
+              "OpenAI 正在推出新的视觉广告格式。",
+              "ChatGPT 每周吸引 12 亿用户。",
+              "广告商可以通过新的测量工具评估广告效果。"
+            ],
+            "vendor": [
+              "OpenAI 表示新的广告格式将帮助用户探索产品和服务。",
+              "OpenAI 扩展了与测量工具和合作伙伴的合作，以支持广告商的需求。"
+            ],
+            "community": [],
+            "questions": [
+              "新的广告格式在用户体验中具体如何实施？",
+              "广告效果的测量工具将如何与现有系统集成？",
+              "广告商如何确保广告在合适的环境中展示？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-06"
+    },
+    {
+      "id": "live-d5c49d2bd233-2026-10-06",
+      "title": "Create custom MCP server OpenAI API",
+      "category": "Product",
+      "priority": "High",
+      "date": "Today · 01:00",
+      "readTime": "8 min",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "intelligenceType": "market",
+      "fact": "OpenAI provides a comprehensive documentation index for its API, including guides on various functionalities.",
+      "summary": "OpenAI offers extensive documentation for its API, covering topics from getting started to advanced features. Users can access Markdown versions of the documentation pages.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Documentation includes guides on using GPT-6 and core concepts.",
+        "Users can find resources for SDKs, CLI, and specialized models.",
+        "The API documentation is accessible via a dashboard."
+      ],
+      "topics": [
+        "OpenAI",
+        "AI Agent"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "AI product design",
+          "Evaluation",
+          "Workflow design"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Applied AI Engineer"
+        ],
+        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Create custom MCP server OpenAI API",
+          "url": "https://developers.openai.com/api/docs/guides/custom-mcp-server",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "Advertiser API Overview API Partner Setup Campaign Management Bidding & Budgets Targeting Product Feeds Hotel Feeds (limited beta) Conversion Tracking Reporting Troubleshooting Account Management API Reference Authentication Ad Account Audit Logs Campaigns Ad Groups Ads Insights Files Conversion Setup DocsOverview Home Get started Quickstart Use ChatGPT Get started with Work Meet dots Import from another agent…",
+          "For the complete documentation index, see llms.txt.",
+          "Markdown versions of documentation pages are available by appending .md to the page URL.",
+          "ChatGPT API Dashboard Try ChatGPT Search the API docs Suggested Primary navigation Suggested DocsOverview Home Get started Quickstart Using GPT…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "OpenAI API 文档概览",
+          "fact": "OpenAI 提供了全面的 API 文档索引，涵盖各种功能的指南。",
+          "summary": "OpenAI 提供了丰富的 API 文档，内容包括入门指南和高级功能。用户可以访问 Markdown 版本的文档页面。",
+          "highlights": [
+            "文档包括使用 GPT-6 和核心概念的指南。",
+            "用户可以找到 SDK、CLI 和专业模型的资源。",
+            "API 文档可通过仪表板访问。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "OpenAI 提供全面的 API 文档索引。",
+              "文档涵盖从入门到高级功能的各种主题。"
+            ],
+            "community": [],
+            "questions": []
+          }
+        }
+      },
+      "editionDate": "2026-10-06"
+    },
+    {
+      "id": "talent-snapshot-2026-10-06",
+      "title": "AI talent openings snapshot · 2026-10-06",
+      "category": "Talent",
+      "priority": "Medium",
+      "date": "Oct 06",
+      "readTime": "2 min",
+      "source": "Official careers snapshot",
+      "sourceId": "talent-snapshot",
+      "intelligenceType": "talent-trend",
+      "fact": "On 2026-10-06, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+      "summary": "On 2026-10-06, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages. 3 newly observed, 1 no longer observed, and 0 changed since the prior snapshot.",
+      "summaryKind": "curated",
+      "highlights": [
+        "On 2026-10-06, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+        "3 newly observed, 1 no longer observed, and 0 changed since the prior snapshot."
+      ],
+      "topics": [
+        "OpenAI",
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 72,
+          "why": "Use the snapshot as supporting evidence of competitor capability investment, not as proof of a broad market trend."
+        },
+        "HR & Recruiting": {
+          "score": 98,
+          "why": "Compare repeated daily snapshots to identify persistent demand, newly observed roles, and changing skill requirements."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Python",
+          "Applied AI",
+          "Systems thinking"
+        ],
+        "roles": [
+          "AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Compare repeated openings and role changes before treating one job post as a talent trend.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer",
+          "url": "https://openai.com/careers/research-engineer-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Product Designer, Engineering Acceleration",
+          "url": "https://openai.com/careers/product-designer-engineering-acceleration-seattle",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer, Retrieval & Search, Applied Engineering",
+          "url": "https://openai.com/careers/research-engineer-retrieval-and-search-applied-engineering-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Applied AI, Research Engineer at",
+          "url": "https://anthropic.com/careers/jobs/5390811008",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Research Engineer/Research Scientist, Pre training at",
+          "url": "https://anthropic.com/careers/jobs/4616971008",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Official careers · daily snapshot",
+      "evidenceStatus": "Official source",
+      "claims": {
+        "confirmed": [
+          "On 2026-10-06, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which changes persist across subsequent daily snapshots?"
+        ]
+      },
+      "translations": {
+        "zh": {
+          "title": "AI 人才岗位快照：5 个在招信号",
+          "fact": "2026-10-06，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。",
+          "summary": "2026-10-06，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。；较上一快照新增 3 个、未再观察到 1 个、内容变化 0 个。",
+          "highlights": [
+            "2026-10-06，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。",
+            "较上一快照新增 3 个、未再观察到 1 个、内容变化 0 个。"
+          ],
+          "claims": {
+            "confirmed": [
+              "2026-10-06，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。"
+            ],
+            "vendor": [],
+            "community": [],
+            "questions": [
+              "这些变化是否会在后续每日快照中持续？"
+            ]
+          },
+          "roles": {
+            "Executive": "将岗位快照作为竞品能力投入的辅助证据，不能据此直接推断整体市场趋势。",
+            "HR & Recruiting": "通过连续快照识别持续需求、新出现岗位及技能要求变化。"
+          }
+        }
+      },
+      "editionDate": "2026-10-06"
     }
   ]
 }
