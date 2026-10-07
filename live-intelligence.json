@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T07:15:40.601329+00:00",
+  "generatedAt": "2026-10-07T07:59:59.753888+00:00",
   "provider": "Tavily + official APIs",
   "edition": {
     "date": "2026-10-07",
@@ -12,15 +12,11 @@
     "previousAsOf": "2026-10-06",
     "current": 5,
     "newlySeen": [
-      "Engineering Manager, Rosalind Workbench",
-      "Careers",
-      "Careers",
+      "Engineering Manager, Core Experimentation",
       "Job Application for Research Engineer/Research Scientist, Pre training at"
     ],
     "missing": [
-      "Research Engineer",
       "Product Designer, Engineering Acceleration",
-      "Research Engineer, Retrieval & Search, Applied Engineering",
       "Job Application for Software Engineer, Research Tools at",
       "Job Application for Research Engineer, Universes at"
     ],
@@ -2191,6 +2187,100 @@
       "editionDate": "2026-10-06"
     },
     {
+      "id": "live-47b9255d8fa0-2026-10-07",
+      "title": "Sharing AI progress in mathematics",
+      "category": "Model",
+      "priority": "High",
+      "date": "Today · 06:24",
+      "readTime": "6 min",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "intelligenceType": "market",
+      "fact": "OpenAI is releasing new mathematical results produced by an internal frontier model.",
+      "summary": "OpenAI has published a range of mathematical results and is consulting with an advisory group to improve sharing practices. They are committed to enhancing the quality of future releases.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Results are published in a GitHub repository with protocols for revisions and citations.",
+        "Formalizations of proofs in Lean programming language are included.",
+        "OpenAI plans to fund workshops and conferences to promote understanding of AI-generated results."
+      ],
+      "topics": [
+        "OpenAI"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Sharing AI progress in mathematics",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "We want to directly empower scientists with state of the art capabilities and are working to responsibly release the model that produced these results. This is why it is important to continue to evaluate our internal frontier models on mathematics and other sciences, so we can accelerate developing the tools to advance those fields.",
+          "View on GitHub Share We’re releasing a broad range of new mathematical results produced by an internal frontier model.",
+          "As we look to improve how we share results with the math community, we’ve been consulting with the independent Advisory Group on Mathematics…",
+          "For this release, we’re publishing the results in a GitHub repository, with protocols for paper revisions and citations."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "分享人工智能在数学领域的进展",
+          "fact": "OpenAI 正在发布由内部前沿模型生成的新数学结果。",
+          "summary": "OpenAI 发布了一系列数学结果，并与顾问小组合作改善结果共享实践。他们承诺提升未来发布的质量。",
+          "highlights": [
+            "结果已在 GitHub 仓库中发布，并设有修订和引用的协议。",
+            "包含用 Lean 编程语言形式化的证明。",
+            "OpenAI 计划资助研讨会和会议，以促进对 AI 生成结果的理解。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "OpenAI 正在发布由内部前沿模型生成的新数学结果。",
+              "OpenAI 承诺提升未来发布的质量。"
+            ],
+            "community": [],
+            "questions": [
+              "如何评估内部前沿模型在数学和其他科学领域的表现？",
+              "未来的发布将如何进一步改善数学论文的质量？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-07"
+    },
+    {
       "id": "live-a585154abde8-2026-10-07",
       "title": "Decisions OpenAI API",
       "category": "Product",
@@ -2200,13 +2290,13 @@
       "source": "OpenAI",
       "sourceId": "openai",
       "intelligenceType": "market",
-      "fact": "OpenAI provides a comprehensive API documentation index for developers.",
-      "summary": "OpenAI offers extensive documentation for its API, including guides and resources. Users can access various functionalities and tools through the API.",
+      "fact": "OpenAI provides a comprehensive API documentation index for its services.",
+      "summary": "OpenAI offers detailed documentation for its API, including guides and resources for various functionalities. Users can access the documentation through specific URLs.",
       "summaryKind": "ai",
       "highlights": [
         "API documentation includes quickstart guides and core concepts.",
-        "Resources available for SDKs, CLI, and specialized models.",
-        "Safety and governance practices are outlined in the documentation."
+        "Resources for SDKs, CLI, and specialized models are available.",
+        "Users can find information on safety, governance, and infrastructure."
       ],
       "topics": [
         "OpenAI",
@@ -2244,6 +2334,14 @@
         }
       ],
       "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "WorkChange",
+        "basis": [
+          "decision"
+        ],
+        "focus": "The source directly changes a tool or workflow. Identify the affected tasks before changing role definitions or staffing plans.",
+        "focusZh": "原文直接涉及工具或工作流变化；应先识别受影响的具体任务，再调整岗位定义或人员规划。"
+      },
       "claims": {
         "confirmed": [
           "Advertiser API Overview API Partner Setup Campaign Management Bidding & Budgets Targeting Product Feeds Hotel Feeds (limited beta) Conversion Tracking Reporting Troubleshooting Account Management API Reference Authentication Ad Account Audit Logs Campaigns Ad Groups Ads Insights Files Conversion Setup DocsOverview Home Get started Quickstart Use ChatGPT Get started with Work Meet dots Import from another agent…",
@@ -2262,12 +2360,12 @@
       "translations": {
         "zh": {
           "title": "OpenAI API 文档",
-          "fact": "OpenAI 提供了全面的 API 文档索引供开发者使用。",
-          "summary": "OpenAI 为其 API 提供了广泛的文档，包括指南和资源。用户可以通过 API 访问各种功能和工具。",
+          "fact": "OpenAI 提供了其服务的全面 API 文档索引。",
+          "summary": "OpenAI 提供了详细的 API 文档，包括各种功能的指南和资源。用户可以通过特定 URL 访问这些文档。",
           "highlights": [
             "API 文档包括快速入门指南和核心概念。",
             "提供 SDK、CLI 和专业模型的资源。",
-            "文档中概述了安全和治理实践。"
+            "用户可以找到有关安全、治理和基础设施的信息。"
           ],
           "claims": {
             "confirmed": [],
@@ -2289,13 +2387,13 @@
       "source": "OpenAI",
       "sourceId": "openai",
       "intelligenceType": "market",
-      "fact": "OpenAI provides a comprehensive documentation index for its API, including various guides and resources.",
-      "summary": "OpenAI has released extensive documentation for its API. This includes guides on getting started, core concepts, and specialized models.",
+      "fact": "OpenAI provides a comprehensive API documentation index for developers.",
+      "summary": "OpenAI offers extensive API documentation for various functionalities. This includes guides on using different models and tools.",
       "summaryKind": "ai",
       "highlights": [
         "Documentation includes quickstart guides and core concepts.",
-        "Resources available for SDKs, CLI, and specialized models.",
-        "Guides on performance, safety, and infrastructure."
+        "Resources for SDKs, CLI, and specialized models are available.",
+        "Safety, performance, and cost optimization best practices are outlined."
       ],
       "topics": [
         "OpenAI",
@@ -2333,6 +2431,14 @@
         }
       ],
       "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "WorkChange",
+        "basis": [
+          "decision"
+        ],
+        "focus": "The source directly changes a tool or workflow. Identify the affected tasks before changing role definitions or staffing plans.",
+        "focusZh": "原文直接涉及工具或工作流变化；应先识别受影响的具体任务，再调整岗位定义或人员规划。"
+      },
       "claims": {
         "confirmed": [
           "Advertiser API Overview API Partner Setup Campaign Management Bidding & Budgets Targeting Product Feeds Hotel Feeds (limited beta) Conversion Tracking Reporting Troubleshooting Account Management API Reference Authentication Ad Account Audit Logs Campaigns Ad Groups Ads Insights Files Conversion Setup DocsOverview Home Get started Quickstart Use ChatGPT Get started with Work Meet dots Import from another agent…",
@@ -2351,18 +2457,16 @@
       "translations": {
         "zh": {
           "title": "OpenAI API 文档概览",
-          "fact": "OpenAI 提供了全面的 API 文档索引，包括多种指南和资源。",
-          "summary": "OpenAI 发布了其 API 的详细文档，包括入门指南、核心概念和专业模型的资源。文档涵盖性能、安全和基础设施等方面。",
+          "fact": "OpenAI 提供了全面的 API 文档索引，供开发者使用。",
+          "summary": "OpenAI 为不同功能提供了广泛的 API 文档，包括使用不同模型和工具的指南。文档涵盖了快速入门和核心概念。",
           "highlights": [
             "文档包括快速入门指南和核心概念。",
             "提供 SDK、CLI 和专业模型的资源。",
-            "涵盖性能、安全和基础设施的指南。"
+            "概述了安全性、性能和成本优化的最佳实践。"
           ],
           "claims": {
             "confirmed": [],
-            "vendor": [
-              "OpenAI 提供全面的 API 文档索引。"
-            ],
+            "vendor": [],
             "community": [],
             "questions": []
           }
@@ -2381,12 +2485,12 @@
       "sourceId": "anthropic",
       "intelligenceType": "market",
       "fact": "Anthropic is launching an expanded version of its Cyber Verification Program (CVP) with three access tiers for security professionals.",
-      "summary": "The new CVP offers advanced cyber capabilities to qualifying security teams. It includes Defense Access, Red Team Access, and Specialized Access tiers.",
+      "summary": "The expanded CVP provides advanced cyber capabilities to qualifying security teams. It includes Defense Access, Red Team Access, and Specialized Access tiers.",
       "summaryKind": "ai",
       "highlights": [
-        "The CVP now consists of three access tiers tailored for different cybersecurity roles.",
-        "Organizations can apply for access based on their cybersecurity work scope.",
-        "The program aims to enhance the tools available for defenders against cyber threats."
+        "The CVP now consists of three access tiers for security professionals.",
+        "Defense Access is for defensive work, while Red Team Access allows authorized penetration testing.",
+        "Specialized Access is reserved for verified organizations testing critical safety systems."
       ],
       "topics": [
         "Claude"
@@ -2423,6 +2527,15 @@
         }
       ],
       "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "cyber",
+          "security team"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
       "claims": {
         "confirmed": [
           "New access tiers The updated access tiers make specific model capabilities available to security professionals based on the scope of their cyber work. Each has different verification requirements and security controls.",
@@ -2442,119 +2555,25 @@
       "translations": {
         "zh": {
           "title": "扩展网络验证计划",
-          "fact": "Anthropic 正在推出扩展版网络验证计划（CVP），为安全专业人员提供三种访问级别。",
-          "summary": "新的 CVP 为合格的安全团队提供先进的网络能力。它包括防御访问、红队访问和专业访问三个级别。",
+          "fact": "Anthropic 正在推出扩展版网络验证计划（CVP），为合格的安全专业人员提供三种访问层级。",
+          "summary": "扩展后的 CVP 为合格的安全团队提供先进的网络能力，包括防御访问、红队访问和专业访问层级。每个层级都有不同的验证要求和安全控制。",
           "highlights": [
-            "CVP 现在由三种针对不同网络安全角色的访问级别组成。",
-            "组织可以根据其网络安全工作范围申请访问权限。",
-            "该计划旨在增强防御者对抗网络威胁的工具。"
+            "CVP 现在由三种访问层级组成，面向安全专业人员。",
+            "防御访问用于防御性工作，红队访问允许授权的渗透测试。",
+            "专业访问仅限于经过验证的组织，测试关键安全系统。"
           ],
           "claims": {
             "confirmed": [
-              "CVP 现在包括防御访问、红队访问和专业访问三个级别。",
-              "组织可以根据其网络安全工作范围申请访问权限。"
+              "CVP 现在包括三种访问层级，分别为防御访问、红队访问和专业访问。"
             ],
             "vendor": [
-              "CVP 提供高级网络能力和减少的阻止分类器给合格的安全专业人员。",
-              "我们预计许多进行防御性网络安全工作的组织将符合防御访问级别的资格。"
+              "CVP 提供先进的网络能力和减少的阻止分类器给合格的安全专业人员。"
             ],
             "community": [],
             "questions": [
-              "如何评估申请组织的资格？",
-              "在红队访问级别中，组织的申请审核需要多长时间？",
-              "专业访问级别的具体要求是什么？"
+              "如何评估申请的组织是否符合红队访问的资格？",
+              "专业访问层级的审核过程是怎样的？"
             ]
-          }
-        }
-      },
-      "editionDate": "2026-10-07"
-    },
-    {
-      "id": "live-88de191cb846-2026-10-07",
-      "title": "Building with advanced agent capabilities for Claude on Vertex AI Claude by",
-      "category": "Model",
-      "priority": "High",
-      "date": "Oct 06",
-      "readTime": "3 min",
-      "source": "Anthropic",
-      "sourceId": "anthropic",
-      "intelligenceType": "market",
-      "fact": "A technical workshop on advanced AI agent capabilities for Claude on Vertex AI is scheduled for January 29, 2026.",
-      "summary": "The workshop will cover multi-layered memory architectures, advanced reasoning patterns, and custom tool integrations for Claude. Participants will learn how to implement these capabilities in production.",
-      "summaryKind": "ai",
-      "highlights": [
-        "The workshop will feature Ivan Nardini from Google Cloud and Alex Notov from Anthropic.",
-        "Attendees will learn to maintain context across sessions and help agents with complex tasks.",
-        "The event will provide insights into combining memory, reasoning, and custom tools."
-      ],
-      "topics": [
-        "Claude",
-        "AI Agent"
-      ],
-      "roles": {
-        "Executive": {
-          "score": 92,
-          "why": "Review the first-party evidence before using this signal in a product or market decision."
-        },
-        "HR & Recruiting": {
-          "score": 88,
-          "why": "Compare the capability change with current role profiles and competitor hiring demand."
-        }
-      },
-      "talent": {
-        "skills": [
-          "Model evaluation",
-          "Python",
-          "Applied AI"
-        ],
-        "roles": [
-          "Applied AI Engineer",
-          "AI Product Manager"
-        ],
-        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
-        "action": "Validate this signal against current job descriptions and interview feedback."
-      },
-      "sources": [
-        {
-          "type": "Official page",
-          "name": "Building with advanced agent capabilities for Claude on Vertex AI Claude by",
-          "url": "https://anthropic.com/webinars/claude-on-vertex-ai",
-          "signal": "Primary facts"
-        }
-      ],
-      "ingestion": "Tavily · official",
-      "claims": {
-        "confirmed": [
-          "What you’ll learn Maintain context across sessions and learn from past interactions Help agents break down complex tasks, plan sequences of actions, and self correct Combine memory, reasoning, and custom tools into agent architectures Transform how your organization operates with Claude Try Claude (opens in new tab)Contact sales [...] Contact salesTry Claude On demand Building with Advanced Agent Capabilities for…",
-          "Log in to Claude Log in to Claude Download app Download app Partner Series Recorded event January 29, 2026 — 9:00 am PST Building with Advanced…",
-          "You'll see how these capabilities work in practice as well as how to implement them in production.",
-          "Featuring Ivan Nardini Developer Relations Engineer (AI/ML) at Google Cloud Alex Notov Technical Enablement Lead at Anthropic What you’ll learn…"
-        ],
-        "vendor": [],
-        "community": [],
-        "questions": [
-          "Which capability, reliability, and adoption claims still need independent verification?"
-        ]
-      },
-      "evidenceStatus": "Official source",
-      "summaryProvider": "GPT-4o mini · LaoZhang",
-      "translations": {
-        "zh": {
-          "title": "Claude在Vertex AI上的高级代理能力研讨会",
-          "fact": "一场关于Claude在Vertex AI上高级代理能力的技术研讨会定于2026年1月29日举行。",
-          "summary": "此次研讨会将涵盖多层记忆架构、先进推理模式和自定义工具集成。参与者将学习如何在生产中实施这些能力。",
-          "highlights": [
-            "研讨会将由谷歌云的Ivan Nardini和Anthropic的Alex Notov主讲。",
-            "与会者将学习如何在会话间保持上下文并帮助代理处理复杂任务。",
-            "活动将提供关于结合记忆、推理和自定义工具的见解。"
-          ],
-          "claims": {
-            "confirmed": [],
-            "vendor": [
-              "研讨会将介绍多层记忆架构和先进推理模式。"
-            ],
-            "community": [],
-            "questions": []
           }
         }
       },
@@ -2570,13 +2589,13 @@
       "source": "Anthropic",
       "sourceId": "anthropic",
       "intelligenceType": "market",
-      "fact": "The Claude Code team hosted a webinar to discuss recent feature updates and provide tips for users.",
-      "summary": "The Claude Code team shared new features and improvements in a recent webinar. They also offered practical tips and conducted a live Q&A session.",
+      "fact": "The Claude Code team held a monthly session to discuss recent feature updates and provide tips.",
+      "summary": "The Claude Code team shared new features and improvements, along with practical tips. They also conducted a live Q&A session.",
       "summaryKind": "ai",
       "highlights": [
-        "The webinar included discussions on new Claude Code features.",
-        "Practical tips and tutorials were shared by the team.",
-        "Participants could ask questions during a live Q&A session."
+        "The session included discussions on new Claude Code features.",
+        "Practical tips and tutorials were shared from the team's workflows.",
+        "A live Q&A allowed participants to ask questions directly to the team."
       ],
       "topics": [
         "Claude",
@@ -2614,12 +2633,20 @@
         }
       ],
       "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "code"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
       "claims": {
         "confirmed": [
           "Contact salesTry Claude On demand What We Shipped: Feature Updates, Tips, and Live Q&A with the Claude Code Team Join the team for a monthly look at what we’ve shipped and how to get the most out of Claude Code. We’ll walk through the latest features, share tips from our own workflows, and answer your questions live.",
-          "Claude Resources On demand What We Shipped: Feature Updates, Tips, and Live Q&A with the Claude Code Team Join the team for a monthly look at…",
+          "Contact salesTry Claude On demand What We Shipped: Feature Updates, Tips, and Live Q&A with the Claude Code Team Join the team for a monthly…",
           "We’ll walk through the latest features, share tips from our own workflows, and answer your questions live.",
-          "Register for the webinar Fill out the form below to watch on demand."
+          "Featured speakers Adam Wolff Claude Code @ Anthropic Thariq Shihpar Claude Code @ Anthropic Kacie Jenkins Claude Code Marketing @ Anthropic…"
         ],
         "vendor": [],
         "community": [],
@@ -2631,48 +2658,51 @@
       "summaryProvider": "GPT-4o mini · LaoZhang",
       "translations": {
         "zh": {
-          "title": "Claude Code 团队的功能更新与问答",
-          "fact": "Claude Code 团队举办了一场网络研讨会，讨论了最近的功能更新并提供用户提示。",
-          "summary": "Claude Code 团队在最近的网络研讨会上分享了新功能和改进。还提供了实用提示，并进行了现场问答。",
+          "title": "Claude Code 团队更新与问答",
+          "fact": "Claude Code 团队举行了月度会议，讨论最近的功能更新并提供实用技巧。",
+          "summary": "Claude Code 团队分享了新功能和改进，并提供了实用的工作流程技巧。会议还进行了现场问答，参与者可以直接向团队提问。",
           "highlights": [
-            "网络研讨会讨论了新的 Claude Code 功能。",
-            "团队分享了实用的提示和教程。",
-            "参与者可以在现场问答环节提问。"
+            "会议讨论了新的 Claude Code 功能。",
+            "团队分享了实用的工作流程技巧和教程。",
+            "现场问答环节允许参与者直接向团队提问。"
           ],
           "claims": {
             "confirmed": [],
             "vendor": [
               "Claude Code 团队分享了新功能和改进。",
-              "提供了实用提示和教程。",
-              "进行了现场问答环节。"
+              "团队提供了实用的工作流程技巧和教程。"
             ],
             "community": [],
-            "questions": []
+            "questions": [
+              "参与者在现场问答中提出了哪些问题？",
+              "新功能的具体应用场景是什么？"
+            ]
           }
         }
       },
       "editionDate": "2026-10-07"
     },
     {
-      "id": "live-0ea9b865a4e1-2026-10-07",
-      "title": "Claude in production: Executive briefings Claude by",
+      "id": "live-86f8094528c5-2026-10-07",
+      "title": "How to control costs and show ROI for Claude Code on Google Cloud Claude by",
       "category": "Industry",
       "priority": "Medium",
       "date": "Oct 06",
-      "readTime": "3 min",
+      "readTime": "2 min",
       "source": "Anthropic",
       "sourceId": "anthropic",
       "intelligenceType": "market",
-      "fact": "Anthropic is hosting a webinar series for technology and security leaders on running Claude safely at enterprise scale.",
-      "summary": "The webinar series addresses key questions organizations face when deploying AI models. It features speakers from Anthropic and guest experts.",
+      "fact": "A technical webinar on controlling costs and showing ROI for Claude Code on Google Cloud was announced.",
+      "summary": "The webinar will teach participants how to manage expenses and demonstrate the value of their investment in Claude Code. It will cover configuring the Claude apps gateway and analyzing usage data.",
       "summaryKind": "ai",
       "highlights": [
-        "Four sessions are scheduled this fall, starting September 18.",
-        "Each session includes live audience Q&A.",
-        "Registration provides access to all session details and recordings."
+        "Participants will learn to connect usage data to productivity signals.",
+        "Best practices for controlling AI costs will be shared.",
+        "The session will focus on maintaining accurate cost and access data."
       ],
       "topics": [
-        "Claude"
+        "Claude",
+        "Coding"
       ],
       "roles": {
         "Executive": {
@@ -2700,17 +2730,125 @@
       "sources": [
         {
           "type": "Official page",
+          "name": "How to control costs and show ROI for Claude Code on Google Cloud Claude by",
+          "url": "https://anthropic.com/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "code"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "What you’ll learn Showing the return on your Claude Code on Google Cloud investment, connecting usage data to productivity signals like commits, pull requests, and cost per commit. Measuring AI adoption across your organization, including active developers, session counts, and how teams are using skills and plugins.",
+          "What you’ll learn Showing the return on your Claude Code on Google Cloud investment, connecting usage data to productivity signals like…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "如何控制 Claude Code 的成本并展示投资回报",
+          "fact": "宣布了一场关于如何控制 Google Cloud 上 Claude Code 成本和展示投资回报的技术网络研讨会。",
+          "summary": "该网络研讨会将教参与者如何管理开支并展示 Claude Code 投资的价值，内容包括配置 Claude 应用网关和分析使用数据。将分享控制 AI 成本的最佳实践。",
+          "highlights": [
+            "参与者将学习如何将使用数据与生产力信号连接。",
+            "将分享控制 AI 成本的最佳实践。",
+            "会议将重点关注维护准确的成本和访问数据。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "将展示如何将 Claude Code 的使用数据与生产力信号连接。",
+              "将分享控制 AI 成本的最佳实践，包括用户、团队和组织的支出上限。"
+            ],
+            "community": [],
+            "questions": [
+              "如何确保报告的成本和访问数据准确反映每位开发者的会话情况？",
+              "如何衡量组织内 AI 的采用情况，包括活跃开发者和会话数量？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-07"
+    },
+    {
+      "id": "live-0ea9b865a4e1-2026-10-07",
+      "title": "Claude in production: Executive briefings Claude by",
+      "category": "Research",
+      "priority": "Medium",
+      "date": "Oct 06",
+      "readTime": "3 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Anthropic is hosting a series of live briefings for technology and security leaders on deploying Claude safely at enterprise scale.",
+      "summary": "Anthropic is offering webinars to help organizations understand how to implement Claude effectively. The sessions will cover various topics related to AI model deployment and cybersecurity.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Four live sessions are scheduled starting September 18.",
+        "The briefings will include audience Q&A.",
+        "Speakers include Anthropic’s security and product leaders, researchers, and guests from customers and partners."
+      ],
+      "topics": [
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 82,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 80,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Evaluation",
+          "Data analysis",
+          "Research literacy"
+        ],
+        "roles": [
+          "Research Engineer",
+          "Model Evaluator"
+        ],
+        "signal": "Watch whether the research direction changes evaluation and applied-AI role requirements.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
           "name": "Claude in production: Executive briefings Claude by",
           "url": "https://anthropic.com/webinar-series/claude-at-the-frontier-executive-briefings",
           "signal": "Primary facts"
         }
       ],
       "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "TalentDemand",
+        "basis": [
+          "briefing"
+        ],
+        "focus": "The source provides direct capability-development evidence. Track participation and outcomes before treating it as a broader talent trend.",
+        "focusZh": "原文提供了能力培养的直接证据；需继续观察参与范围与结果，再判断是否形成更广泛的人才趋势。"
+      },
       "claims": {
         "confirmed": [
-          "Four sessions are scheduled this fall, starting September 18. Register once and we will send you the details for every session, plus the recording if you cannot join live.",
-          "Claude Resources Claude in Production: Executive Briefings Live briefings for technology and security leaders on what it takes to run Claude…",
-          "A webinar series from Anthropic for executives and the leaders who work alongside them.",
+          "Contact salesTry Claude Claude in Production: Executive Briefings Live briefings for technology and security leaders on what it takes to run Claude safely at enterprise scale. Register for all webinars A webinar series from Anthropic for executives and the leaders who work alongside them.",
+          "Contact salesTry Claude Claude in Production: Executive Briefings Live briefings for technology and security leaders on what it takes to run…",
+          "Register for all webinars A webinar series from Anthropic for executives and the leaders who work alongside them.",
           "Each briefing takes on one question an organization faces when it puts AI models and agents into production: how to run the rollout with…"
         ],
         "vendor": [],
@@ -2724,198 +2862,17 @@
       "translations": {
         "zh": {
           "title": "Claude生产中的网络研讨会",
-          "fact": "Anthropic正在为技术和安全领导者举办关于安全运行Claude的网络研讨会系列。",
-          "summary": "该网络研讨会系列解决了组织在部署AI模型时面临的关键问题，演讲者包括Anthropic的专家和客户嘉宾。每个会议将进行现场问答。",
+          "fact": "Anthropic正在为技术和安全领导者举办关于安全部署Claude的网络研讨会系列。",
+          "summary": "Anthropic提供网络研讨会，帮助组织理解如何有效实施Claude。会议将涵盖与AI模型部署和网络安全相关的各种主题。",
           "highlights": [
-            "四场会议定于今年秋季举行，首场于9月18日开始。",
-            "每场会议包括现场观众问答环节。",
-            "注册后可获取所有会议详情和录音。"
+            "四场直播会议定于9月18日开始。",
+            "会议将包括观众问答环节。",
+            "演讲者包括Anthropic的安全和产品领导者、研究人员及客户和合作伙伴的嘉宾。"
           ],
           "claims": {
             "confirmed": [],
             "vendor": [
-              "Anthropic正在举办网络研讨会系列，专注于安全运行Claude。"
-            ],
-            "community": [],
-            "questions": []
-          }
-        }
-      },
-      "editionDate": "2026-10-07"
-    },
-    {
-      "id": "live-b0d2a60df158-2026-10-07",
-      "title": "openai python v3.26.0",
-      "category": "Product",
-      "priority": "High",
-      "date": "Today · 05:29",
-      "readTime": "2 min",
-      "source": "GitHub Releases",
-      "sourceId": "github",
-      "intelligenceType": "release",
-      "fact": "OpenAI released Python version 3.26.0 on October 6, 2026, which includes standalone Decisions support.",
-      "summary": "OpenAI has launched Python version 3.26.0. This version features standalone Decisions support.",
-      "summaryKind": "ai",
-      "highlights": [
-        "Version 3.26.0 was released on October 6, 2026.",
-        "The new version includes standalone Decisions support.",
-        "The release is identified by the code (4033) and commit (b99e3e4)."
-      ],
-      "topics": [
-        "Coding"
-      ],
-      "roles": {
-        "Executive": {
-          "score": 92,
-          "why": "Review the first-party evidence before using this signal in a product or market decision."
-        },
-        "HR & Recruiting": {
-          "score": 88,
-          "why": "Compare the capability change with current role profiles and competitor hiring demand."
-        }
-      },
-      "talent": {
-        "skills": [
-          "AI product design",
-          "Evaluation",
-          "Workflow design"
-        ],
-        "roles": [
-          "AI Product Manager",
-          "Applied AI Engineer"
-        ],
-        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
-        "action": "Validate this signal against current job descriptions and interview feedback."
-      },
-      "sources": [
-        {
-          "type": "Official release",
-          "name": "openai python v3.26.0",
-          "url": "https://github.com/openai/openai-python/releases/tag/v3.26.0",
-          "signal": "Primary facts"
-        }
-      ],
-      "ingestion": "GitHub API · official release",
-      "claims": {
-        "confirmed": [
-          "3.26.0 (2026 10 06) Features api: add standalone Decisions support ( 4033) (b99e3e4)"
-        ],
-        "vendor": [],
-        "community": [],
-        "questions": [
-          "Which capability, reliability, and adoption claims still need independent verification?"
-        ]
-      },
-      "evidenceStatus": "Official source",
-      "summaryProvider": "GPT-4o mini · LaoZhang",
-      "translations": {
-        "zh": {
-          "title": "OpenAI 发布 Python 3.26.0",
-          "fact": "OpenAI 于2026年10月6日发布了Python 3.26.0版本，新增独立决策支持功能。",
-          "summary": "OpenAI 发布了Python 3.26.0版本。该版本新增了独立决策支持功能。",
-          "highlights": [
-            "3.26.0版本于2026年10月6日发布。",
-            "新版本包含独立决策支持功能。",
-            "该发布的标识为(4033)和提交(b99e3e4)。"
-          ],
-          "claims": {
-            "confirmed": [],
-            "vendor": [
-              "OpenAI 发布了Python 3.26.0版本，新增独立决策支持功能。"
-            ],
-            "community": [],
-            "questions": []
-          }
-        }
-      },
-      "editionDate": "2026-10-07"
-    },
-    {
-      "id": "live-12810acdc6d0-2026-10-07",
-      "title": "openai python v3.25.0",
-      "category": "Product",
-      "priority": "High",
-      "date": "Today · 01:56",
-      "readTime": "2 min",
-      "source": "GitHub Releases",
-      "sourceId": "github",
-      "intelligenceType": "release",
-      "fact": "OpenAI released version 3.25.0 of its Python library on October 6, 2026.",
-      "summary": "The new version includes features for agents and tools. Key updates involve observing local tool failures and running local tools during session creation.",
-      "summaryKind": "ai",
-      "highlights": [
-        "Agents can observe local tool failures.",
-        "Local tools can be run during streamed session creation.",
-        "API enhancements include agent turn items and usage source grouping."
-      ],
-      "topics": [
-        "AI Agent",
-        "AI Search"
-      ],
-      "roles": {
-        "Executive": {
-          "score": 92,
-          "why": "Review the first-party evidence before using this signal in a product or market decision."
-        },
-        "HR & Recruiting": {
-          "score": 88,
-          "why": "Compare the capability change with current role profiles and competitor hiring demand."
-        }
-      },
-      "talent": {
-        "skills": [
-          "AI product design",
-          "Evaluation",
-          "Workflow design"
-        ],
-        "roles": [
-          "AI Product Manager",
-          "Applied AI Engineer"
-        ],
-        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
-        "action": "Validate this signal against current job descriptions and interview feedback."
-      },
-      "sources": [
-        {
-          "type": "Official release",
-          "name": "openai python v3.25.0",
-          "url": "https://github.com/openai/openai-python/releases/tag/v3.25.0",
-          "signal": "Primary facts"
-        }
-      ],
-      "ingestion": "GitHub API · official release",
-      "claims": {
-        "confirmed": [
-          "3.25.0 (2026 10 06) Features agents: observe local tool failures ( 4028) (95d9645) agents: run local tools during streamed session creation ( 4027) (919b623) api: add agent turn items and usage source grouping ( 4030) (bd74c4e) lib: export type to response format param publicly ( 2993) (becc1d2) tools: support tool search (defer loading=true) in typed function helpers ( 4029) (eec627f)",
-          "3.25.0 (2026 10 06) Features agents: observe local tool failures ( 4028) (95d9645) agents: run local tools during streamed session creation (…"
-        ],
-        "vendor": [],
-        "community": [],
-        "questions": [
-          "Which capability, reliability, and adoption claims still need independent verification?"
-        ]
-      },
-      "evidenceStatus": "Official source",
-      "summaryProvider": "GPT-4o mini · LaoZhang",
-      "translations": {
-        "zh": {
-          "title": "OpenAI 发布 Python 库 v3.25.0",
-          "fact": "OpenAI 于2026年10月6日发布了其Python库的3.25.0版本。",
-          "summary": "新版本包含了代理和工具的功能更新。主要更新包括观察本地工具故障和在会话创建期间运行本地工具。",
-          "highlights": [
-            "代理可以观察本地工具故障。",
-            "可以在流式会话创建期间运行本地工具。",
-            "API增强包括代理回合项目和使用来源分组。"
-          ],
-          "claims": {
-            "confirmed": [
-              "OpenAI 发布了 Python 库的 3.25.0 版本。",
-              "新版本于2026年10月6日发布。"
-            ],
-            "vendor": [
-              "代理可以观察本地工具故障。",
-              "可以在流式会话创建期间运行本地工具。",
-              "API增强包括代理回合项目和使用来源分组。"
+              "Anthropic正在举办网络研讨会，帮助组织安全地部署Claude。"
             ],
             "community": [],
             "questions": []
@@ -2935,11 +2892,11 @@
       "sourceId": "talent-snapshot",
       "intelligenceType": "talent-trend",
       "fact": "On 2026-10-07, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages.",
-      "summary": "On 2026-10-07, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages. 4 newly observed, 5 no longer observed, and 1 changed since the prior snapshot.",
+      "summary": "On 2026-10-07, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages. 2 newly observed, 3 no longer observed, and 1 changed since the prior snapshot.",
       "summaryKind": "curated",
       "highlights": [
         "On 2026-10-07, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages.",
-        "4 newly observed, 5 no longer observed, and 1 changed since the prior snapshot."
+        "2 newly observed, 3 no longer observed, and 1 changed since the prior snapshot."
       ],
       "topics": [
         "OpenAI",
@@ -2951,9 +2908,17 @@
           "why": "Use the snapshot as supporting evidence of competitor capability investment, not as proof of a broad market trend."
         },
         "HR & Recruiting": {
-          "score": 98,
-          "why": "Compare repeated daily snapshots to identify persistent demand, newly observed roles, and changing skill requirements."
+          "score": 74,
+          "why": "Use this recruiting snapshot only as supporting evidence. Promote a signal after repeated roles, skills, or organization changes appear."
         }
+      },
+      "hrSignal": {
+        "category": "TalentDemand",
+        "basis": [
+          "official job snapshot"
+        ],
+        "focus": "Use this recruiting snapshot only as supporting evidence; repeated changes are required before calling it a talent trend.",
+        "focusZh": "岗位快照仅作为辅助证据；只有岗位、技能或组织变化持续重复出现时，才升级为人才趋势。"
       },
       "talent": {
         "skills": [
@@ -2971,20 +2936,20 @@
       "sources": [
         {
           "type": "Official job listing",
-          "name": "Engineering Manager, Rosalind Workbench",
-          "url": "https://openai.com/careers/engineering-manager-rosalind-workbench-san-francisco",
+          "name": "Research Engineer",
+          "url": "https://openai.com/careers/research-engineer-san-francisco",
           "signal": "Primary facts"
         },
         {
           "type": "Official job listing",
-          "name": "Careers",
-          "url": "https://openai.com/careers/engineering-manager-chatgpt-core-product-san-francisco",
+          "name": "Research Engineer, Retrieval & Search, Applied Engineering",
+          "url": "https://openai.com/careers/research-engineer-retrieval-and-search-applied-engineering-san-francisco",
           "signal": "Primary facts"
         },
         {
           "type": "Official job listing",
-          "name": "Careers",
-          "url": "https://openai.com/careers/protection-scientist-engineer-intelligence-and-investigations-london-uk",
+          "name": "Engineering Manager, Core Experimentation",
+          "url": "https://openai.com/careers/engineering-manager-core-experimentation-seattle",
           "signal": "Primary facts"
         },
         {
@@ -3016,10 +2981,10 @@
         "zh": {
           "title": "AI 人才岗位快照：5 个在招信号",
           "fact": "2026-10-07，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。",
-          "summary": "2026-10-07，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。；较上一快照新增 4 个、未再观察到 5 个、内容变化 1 个。",
+          "summary": "2026-10-07，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。；较上一快照新增 2 个、未再观察到 3 个、内容变化 1 个。",
           "highlights": [
             "2026-10-07，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。",
-            "较上一快照新增 4 个、未再观察到 5 个、内容变化 1 个。"
+            "较上一快照新增 2 个、未再观察到 3 个、内容变化 1 个。"
           ],
           "claims": {
             "confirmed": [
@@ -3033,7 +2998,7 @@
           },
           "roles": {
             "Executive": "将岗位快照作为竞品能力投入的辅助证据，不能据此直接推断整体市场趋势。",
-            "HR & Recruiting": "通过连续快照识别持续需求、新出现岗位及技能要求变化。"
+            "HR & Recruiting": "岗位快照仅作为辅助证据；连续出现的岗位、技能或组织变化才构成人才趋势。"
           }
         }
       },
