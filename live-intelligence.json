@@ -1,24 +1,21 @@
 {
-  "generatedAt": "2026-10-07T07:59:59.753888+00:00",
+  "generatedAt": "2026-10-09T04:01:05.875537+00:00",
   "provider": "Tavily + official APIs",
   "edition": {
-    "date": "2026-10-07",
-    "windowStart": "2026-10-06T07:00:00+08:00",
-    "windowEnd": "2026-10-07T06:59:59+08:00"
+    "date": "2026-10-09",
+    "windowStart": "2026-10-08T07:00:00+08:00",
+    "windowEnd": "2026-10-09T06:59:59+08:00"
   },
   "jobTrends": {
     "state": "compared",
-    "asOf": "2026-10-07",
-    "previousAsOf": "2026-10-06",
+    "asOf": "2026-10-09",
+    "previousAsOf": "2026-10-07",
     "current": 5,
     "newlySeen": [
-      "Engineering Manager, Core Experimentation",
-      "Job Application for Research Engineer/Research Scientist, Pre training at"
+      "Engineering Manager ChatGPT Core Product"
     ],
     "missing": [
-      "Product Designer, Engineering Acceleration",
-      "Job Application for Software Engineer, Research Tools at",
-      "Job Application for Research Engineer, Universes at"
+      "Engineering Manager, Core Experimentation"
     ],
     "changed": [
       "Job Application for Applied AI, Research Engineer at"
@@ -3005,6 +3002,1561 @@
         }
       },
       "editionDate": "2026-10-07"
+    },
+    {
+      "id": "live-02d3a576d15c-2026-10-09",
+      "suppressed": true,
+      "title": "Update a vault OpenAI API Reference",
+      "category": "Product",
+      "priority": "High",
+      "date": "Oct 08",
+      "readTime": "3 min",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "intelligenceType": "market",
+      "fact": "The OpenAI API allows users to update the name or metadata of an active vault.",
+      "summary": "Users can modify vault details through a POST request. Omitted fields will remain unchanged.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Vault updates can include changing the name or metadata.",
+        "Users can send a POST request to update vault information.",
+        "Omitted fields in the update request will not change."
+      ],
+      "topics": [
+        "OpenAI"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "AI product design",
+          "Evaluation",
+          "Workflow design"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Applied AI Engineer"
+        ],
+        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Update a vault OpenAI API Reference",
+          "url": "https://developers.openai.com/api/reference/resources/beta/subresources/agents/subresources/vaults/methods/update",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "api",
+          "api"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "minLength0 created\\ at: number The Unix timestamp, in seconds, when the vault was created. formatint64 metadata: map[string] Key value pairs associated with the vault, such as an application or team identifier.",
+          "Skip to content For the complete documentation index, see llms.txt.",
+          "Markdown versions of documentation pages are available by appending .md to the page URL.",
+          "ChatGPT API Dashboard Try ChatGPT Search the API docs Suggested Primary navigation Suggested Overview Models Agents Tools Audio & voice…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "更新一个保险库",
+          "fact": "OpenAI API 允许用户更新活动保险库的名称或元数据。",
+          "summary": "用户可以通过 POST 请求修改保险库的详细信息，省略的字段将保持不变。更新请求可以包括更改名称或元数据。",
+          "highlights": [
+            "保险库更新可以包括更改名称或元数据。",
+            "用户可以发送 POST 请求以更新保险库信息。",
+            "在更新请求中省略的字段将不会改变。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "OpenAI API 允许用户更新活动保险库的名称或元数据。"
+            ],
+            "community": [],
+            "questions": []
+          }
+        }
+      },
+      "editionDate": "2026-10-09"
+    },
+    {
+      "id": "live-ca1ec6c6a1a1-2026-10-09",
+      "title": "Pollo AI turns creative ideas into campaigns with",
+      "category": "Product",
+      "priority": "High",
+      "date": "Today · 00:00",
+      "readTime": "8 min",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "intelligenceType": "market",
+      "fact": "Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads using OpenAI models.",
+      "summary": "Pollo AI enables users to create videos and visual content without needing production expertise. The platform serves over 26 million users, streamlining the creative process with advanced AI tools.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Pollo AI uses GPT-5.6 and GPT-6 Astra for video creation.",
+        "The platform has over 26 million users creating ads and visual content.",
+        "Pollo Agent provides a guided workflow for video creation."
+      ],
+      "topics": [
+        "OpenAI"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "AI product design",
+          "Evaluation",
+          "Workflow design"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Applied AI Engineer"
+        ],
+        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Pollo AI turns creative ideas into campaigns with",
+          "url": "https://openai.com/index/pollo-ai",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "“As OpenAI’s models have improved, more of the workflows Pollo wanted to support have become practical inside the product. That means users can start from simpler inputs, spend less time figuring out the process, and get to stronger outputs more reliably.” —Bill Zhu, Founder and CEO, Pollo AI The team’s first breakthrough was video templates.",
+          "OpenAI With GPT‑5.6, GPT‑6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+          "Start building with OpenAI Company size: Startup Region: Asia Pacific & Oceania Industry: Technology, Media, Entertainment & Sport Products:…",
+          "Even with generative AI, creators and marketers can struggle to navigate different tools and choose between models to get the result they want."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Pollo AI 利用 OpenAI 将创意转化为广告",
+          "fact": "Pollo AI 利用 OpenAI 模型帮助创作者将创意转化为详细的图像和电影广告。",
+          "summary": "Pollo AI 使用户能够在无需制作专业知识的情况下创建视频和视觉内容。该平台服务超过 2600 万用户，利用先进的 AI 工具简化创作过程。",
+          "highlights": [
+            "Pollo AI 使用 GPT-5.6 和 GPT-6 Astra 进行视频创作。",
+            "该平台拥有超过 2600 万用户，创建广告和视觉内容。",
+            "Pollo Agent 提供视频创作的指导工作流程。"
+          ],
+          "claims": {
+            "confirmed": [
+              "Pollo AI 的首个突破是视频模板，30% 的创作者会从这些模板开始。",
+              "Pollo AI 的 Photo to Video Ads 工具可以将静态图像和提示转化为短视频。"
+            ],
+            "vendor": [
+              "Pollo AI 希望像 Canva 一样简化视频创作，让更多人能够使用。",
+              "Pollo AI 报告称，用户在选择或切换模型时的时间减少超过 50%。"
+            ],
+            "community": [],
+            "questions": [
+              "Pollo AI 如何确保生成内容的质量和一致性？",
+              "用户在使用 Pollo AI 时遇到的主要挑战是什么？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-09"
+    },
+    {
+      "id": "live-d40aae393b58-2026-10-09",
+      "title": "2026 Usage Policy update",
+      "category": "Model",
+      "priority": "High",
+      "date": "Today · 01:00",
+      "readTime": "6 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Anthropic has updated its Usage Policy, which will take effect on November 12, 2026.",
+      "summary": "The updated Usage Policy clarifies existing rules and addresses new misuse patterns. Key changes include a new section on deceptive activity and refined restrictions on political content.",
+      "summaryKind": "ai",
+      "highlights": [
+        "The updated policy includes a prohibition on deceptive campaigns and artificial activity.",
+        "New requirements for high-risk use cases have been clarified.",
+        "The policy now explicitly prohibits using Claude for weapons development and surveillance."
+      ],
+      "topics": [
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "2026 Usage Policy update",
+          "url": "https://anthropic.com/news/2026-usage-policy-update",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "Most of the updates in the latest version are intended to clarify existing rules. In the year since our last refresh, Claude has taken on longer, more independent work.",
+          "Each year, Anthropic updates its Usage Policy in response to the evolving capabilities of our models, and the feedback we’ve received from our…",
+          "We're publishing a new version of the policy today.",
+          "In this post, we summarize the changes we’ve made."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "2026 使用政策更新",
+          "fact": "Anthropic 更新了其使用政策，新政策将于 2026 年 11 月 12 日生效。",
+          "summary": "更新后的使用政策澄清了现有规则，并应对新的误用模式。主要变化包括新增关于欺骗活动的章节和对政治内容的精细化限制。",
+          "highlights": [
+            "更新的政策禁止欺骗性活动和虚假宣传。",
+            "高风险使用案例的新要求已被澄清。",
+            "政策明确禁止使用 Claude 开发武器和进行监视。"
+          ],
+          "claims": {
+            "confirmed": [
+              "更新的政策将于 2026 年 11 月 12 日生效。",
+              "政策中新增了关于欺骗活动的章节。",
+              "高风险使用案例的要求已被澄清。"
+            ],
+            "vendor": [],
+            "community": [],
+            "questions": [
+              "如何界定欺骗性活动的范围？",
+              "高风险使用案例的具体类型有哪些？",
+              "更新后的政策如何影响用户对 Claude 的使用？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-09"
+    },
+    {
+      "id": "live-40407a1cea72-2026-10-09",
+      "title": "An opt in vulnerability finding service for open source software",
+      "category": "Model",
+      "priority": "High",
+      "date": "Today · 03:00",
+      "readTime": "6 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Frontier Red Team launched OSS Scanner, an opt-in vulnerability scanner for open-source software.",
+      "summary": "OSS Scanner provides free security audits for open-source projects. It uses advanced language models to identify vulnerabilities.",
+      "summaryKind": "ai",
+      "highlights": [
+        "OSS Scanner offers periodic security scans at no cost to open-source projects.",
+        "The service has already identified over 29,000 candidate vulnerabilities.",
+        "Initial feedback indicates a high validity rate for the reports generated."
+      ],
+      "topics": [
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "An opt in vulnerability finding service for open source software",
+          "url": "https://anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "Language models have rapidly advanced in their ability to discover vulnerabilities, as we have reported extensively on this blog. On CyberGym, one academic vulnerability finding benchmark, LLMs have gone from finding under 20% of vulnerabilities at the beginning of last year to finding over 85% this year.",
+          "We’re launching OSS Scanner, an opt in vulnerability scanner for the open source ecosystem informed by our experience using Claude to find…",
+          "Projects that join will receive thorough, periodic security scans by our strongest models at no cost.",
+          "Language models have rapidly advanced in their ability to discover vulnerabilities, as we have reported extensively on this blog."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "推出开源软件漏洞发现服务",
+          "fact": "Frontier Red Team 推出了 OSS Scanner，一项针对开源软件的自愿漏洞扫描服务。",
+          "summary": "OSS Scanner 为开源项目提供免费的安全审计，利用先进的语言模型识别漏洞。该服务已发现超过 29,000 个候选漏洞。",
+          "highlights": [
+            "OSS Scanner 为开源项目提供定期的免费安全扫描。",
+            "该服务已识别出超过 29,000 个候选漏洞。",
+            "初步反馈显示生成报告的有效性很高。"
+          ],
+          "claims": {
+            "confirmed": [
+              "OSS Scanner 提供免费的安全审计服务。",
+              "OSS Scanner 已发现超过 29,000 个候选漏洞。"
+            ],
+            "vendor": [
+              "OSS Scanner 使用最强大的语言模型生成报告。",
+              "OSS Scanner 的输出完全由模型生成，没有人工审核或分类。"
+            ],
+            "community": [
+              "多个开源项目反馈 OSS Scanner 的报告质量高。",
+              "初步验证显示 88% 的漏洞符合 CVD 过程标准。"
+            ],
+            "questions": [
+              "OSS Scanner 生成的报告是否总是准确？",
+              "如何确保 OSS Scanner 的持续改进和有效性？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-09"
+    },
+    {
+      "id": "live-f581eef10534-2026-10-09",
+      "title": "Notes de version Anthropic Help Center",
+      "category": "Product",
+      "priority": "High",
+      "date": "Oct 08",
+      "readTime": "8 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Claude Haiku 5.5, the smallest, fastest, and most capable model, was launched on October 7, 2026.",
+      "summary": "Claude Haiku 5.5 has been released, designed for high-volume and cost-sensitive tasks. Monthly API credits are now included in Max and Team plans.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Claude Haiku 5.5 is the smallest and fastest model released.",
+        "Monthly API credits are available for Max and Team plans.",
+        "Claude Sonnet 5.5 and Claude Opus 5.5 were also launched in September 2026."
+      ],
+      "topics": [
+        "Claude",
+        "AI Agent"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "AI product design",
+          "Evaluation",
+          "Workflow design"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Applied AI Engineer"
+        ],
+        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Notes de version Anthropic Help Center",
+          "url": "https://support.anthropic.com/fr/articles/12138966-notes-de-version",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "17 février 2026 Lancement de Claude Sonnet 4.6 Nous avons lancé notre modèle Sonnet le plus capable à ce jour, avec une mise à niveau complète des compétences du modèle en matière de codage, d'utilisation informatique, de raisonnement sur contexte long, de planification d'agents, de travail de connaissance et de conception. Sonnet 4.6 dispose également d'une fenêtre de contexte de 1M de jetons en version bêta.",
+          "Passer au contenu principal Notes de version Octobre 2026 7 octobre 2026 Lancement de Claude Haiku 5.5 Nous venons de lancer Claude Haiku 5.5,…",
+          "Pour plus d'informations, consultez notre article de blog : Claude Haiku 5.5 .",
+          "Crédits API mensuels pour les plans Max et Team Les plans Max et Team incluent désormais des crédits API mensuels pour exécuter vos propres…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Claude Haiku 5.5 发布",
+          "fact": "2026年10月7日，Claude Haiku 5.5 发布，这是最小、最快和最强大的模型。",
+          "summary": "Claude Haiku 5.5 发布，旨在满足高容量和成本敏感的任务需求。Max 和 Team 计划现在包含每月的 API 额度。",
+          "highlights": [
+            "Claude Haiku 5.5 是发布的最小和最快的模型。",
+            "Max 和 Team 计划提供每月的 API 额度。",
+            "Claude Sonnet 5.5 和 Claude Opus 5.5 也在2026年9月发布。"
+          ],
+          "claims": {
+            "confirmed": [
+              "Claude Haiku 5.5 是最小、最快和最强大的模型。"
+            ],
+            "vendor": [
+              "Max 和 Team 计划现在包含每月的 API 额度。"
+            ],
+            "community": [],
+            "questions": []
+          }
+        }
+      },
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "api",
+          "api"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "editionDate": "2026-10-09"
+    },
+    {
+      "id": "live-360a27564bca-2026-10-09",
+      "title": "Building on our commitment to American scientific discovery",
+      "category": "Product",
+      "priority": "High",
+      "date": "Oct 08",
+      "readTime": "4 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Anthropic is committing $150 million over three years to support the Genesis Mission, a federal initiative aimed at accelerating scientific discovery through AI.",
+      "summary": "Anthropic is enhancing its support for American scientific research with a $150 million commitment. This funding will help make Claude available to over 15 federal agencies involved in the Genesis Mission.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Funding will support several hundred Genesis Mission research projects.",
+        "Claude will be provided to agencies like NASA and the National Institutes of Health.",
+        "Anthropic aims to assist scientists in advancing their work through AI."
+      ],
+      "topics": [
+        "Claude",
+        "AI Search",
+        "AI Agent",
+        "Coding"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "AI product design",
+          "Evaluation",
+          "Workflow design"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Applied AI Engineer"
+        ],
+        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Building on our commitment to American scientific discovery",
+          "url": "https://anthropic.com/news/genesis-mission-commitment",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Community thread",
+          "name": "Artificial Intelligence (AI)",
+          "url": "https://reddit.com/r/artificial/hot",
+          "signal": "User discussion"
+        }
+      ],
+      "ingestion": "Tavily · official · 2-source event",
+      "claims": {
+        "confirmed": [
+          "Accelerating scientific research This commitment is part of our broader effort to support scientific research. Earlier this year we launched Claude Science, an AI workbench that integrates the tools and packages researchers most commonly use, and opened 10,000 free and discounted Claude seats for academic scientists.",
+          "Anthropic is deepening its support for American scientific research by committing $150 million over three years to the Genesis Mission, a…",
+          "The funding will go toward making Claude available to more than 15 agencies that are part of the mission, including NASA, the National…",
+          "We first announced our partnership with the US Department of Energy (DOE) and the Genesis Mission last December."
+        ],
+        "vendor": [],
+        "community": [
+          "Claude and Codex keep refusing to use the latest agentic skills to decompile code and build mods from proprietary binaries, constantly citing legal and"
+        ],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Mixed evidence",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Anthropic 加大对美国科学研究的支持",
+          "fact": "Anthropic 承诺在三年内投入1.5亿美元支持 Genesis Mission，旨在通过人工智能加速科学发现。",
+          "summary": "Anthropic 加大对美国科学研究的支持，承诺投入1.5亿美元用于 Genesis Mission。这笔资金将帮助15个参与该计划的联邦机构使用 Claude。",
+          "highlights": [
+            "资金将支持数百个Genesis Mission研究项目。",
+            "Claude将提供给NASA和国家卫生研究院等机构。",
+            "安索普旨在通过人工智能帮助科学家推进他们的工作。"
+          ],
+          "claims": {
+            "confirmed": [
+              "安索普承诺在三年内投入1.5亿美元支持Genesis Mission。"
+            ],
+            "vendor": [
+              "安索普表示将为数百个Genesis Mission研究项目提供Claude、Claude Code和API积分。",
+              "安索普将与机构和国家实验室密切合作，支持政府的科学优先事项。"
+            ],
+            "community": [],
+            "questions": [
+              "安索普如何具体帮助新加入Genesis Mission的机构启动他们的项目？",
+              "安索普的Claude Science AI工作台将如何影响科学研究的进展？"
+            ]
+          }
+        }
+      },
+      "aggregationReason": "Same company, product/version and three-day launch window",
+      "editionDate": "2026-10-09"
+    },
+    {
+      "id": "live-77b3f0b977bc-2026-10-09",
+      "title": "Introducing the Anthropic Cyber Mission",
+      "category": "Industry",
+      "priority": "Medium",
+      "date": "Oct 08",
+      "readTime": "8 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Anthropic has launched the Cyber Mission to enhance cybersecurity for critical infrastructure and open-source software.",
+      "summary": "The Anthropic Cyber Mission aims to provide tools and resources to secure software and systems. It includes the Critical Infrastructure Defense Program and OSS Scanner to support defenders.",
+      "summaryKind": "ai",
+      "highlights": [
+        "The Cyber Mission focuses on securing critical infrastructure and open-source software.",
+        "The Critical Infrastructure Defense Program partners with major security firms to enhance defenses.",
+        "OSS Scanner offers free vulnerability scanning for open-source projects."
+      ],
+      "topics": [
+        "Claude",
+        "AI Search"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 82,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 80,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Market research",
+          "Competitive analysis",
+          "AI strategy"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Strategy Analyst"
+        ],
+        "signal": "Track repeated company actions before treating a single announcement as an industry shift.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Introducing the Anthropic Cyber Mission",
+          "url": "https://anthropic.com/news/anthropic-cyber-mission",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "cyber"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "Today, we’re introducing the Critical Infrastructure Defense Program, which brings frontier Claude models, on site engineers, and our threat research to those trusted providers. Its founding partners are Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, and Rockwell Automation.",
+          "Today we’re launching the Anthropic Cyber Mission, a long term commitment to securing the systems everyone depends on.",
+          "The Cyber Mission is a new effort to support defenders with tools, research, and resources to secure their software and systems.",
+          "We’re starting with two areas: Frontier models can be misused to exploit vulnerabilities and conduct cyber operations."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "推出 Anthropic 网络安全使命",
+          "fact": "Anthropic 启动了网络安全使命，以增强关键基础设施和开源软件的网络安全。",
+          "summary": "Anthropic 网络安全使命旨在提供工具和资源以保护软件和系统安全。它包括关键基础设施防御计划和 OSS 扫描器，以支持防御者。",
+          "highlights": [
+            "网络安全使命专注于保护关键基础设施和开源软件。",
+            "关键基础设施防御计划与主要安全公司合作以增强防御能力。",
+            "OSS 扫描器为开源项目提供免费的漏洞扫描服务。"
+          ],
+          "claims": {
+            "confirmed": [
+              "Anthropic 启动了网络安全使命。",
+              "关键基础设施防御计划的创始合作伙伴包括 Accenture、Booz Allen 和 CrowdStrike 等。"
+            ],
+            "vendor": [
+              "Anthropic 提供前沿 Claude 模型和技术支持给关键基础设施运营商。",
+              "OSS 扫描器为注册项目提供定期扫描服务。"
+            ],
+            "community": [
+              "许多开源项目依赖小型志愿者团队维护。",
+              "防御者面临资源短缺的挑战。"
+            ],
+            "questions": [
+              "如何评估 OSS 扫描器的准确性和有效性？",
+              "关键基础设施防御计划的具体实施效果如何？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-09"
+    },
+    {
+      "id": "live-61732feb798d-2026-10-09",
+      "title": "openai python v3.26.1",
+      "category": "Product",
+      "priority": "High",
+      "date": "Oct 08",
+      "readTime": "2 min",
+      "source": "GitHub Releases",
+      "sourceId": "github",
+      "intelligenceType": "release",
+      "fact": "OpenAI released version 3.26.1 of its Python library on October 8, 2026, which includes bug fixes related to custom voice creation parameters.",
+      "summary": "OpenAI has updated its Python library to version 3.26.1. This version addresses issues with custom voice creation parameters.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Version 3.26.1 was released on October 8, 2026.",
+        "The update includes bug fixes.",
+        "It corrects custom voice creation parameters."
+      ],
+      "topics": [
+        "Coding"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "AI product design",
+          "Evaluation",
+          "Workflow design"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Applied AI Engineer"
+        ],
+        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official release",
+          "name": "openai python v3.26.1",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.26.1",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "GitHub API · official release",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "python"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "3.26.1 (2026 10 08) Bug Fixes api: correct custom voice creation parameters ( 4038) (b9bc5c1)"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "OpenAI Python库更新至3.26.1",
+          "fact": "OpenAI于2026年10月8日发布了Python库的3.26.1版本，修复了与自定义语音创建参数相关的错误。",
+          "summary": "OpenAI更新了其Python库至3.26.1版本。该版本修复了自定义语音创建参数的问题。",
+          "highlights": [
+            "3.26.1版本于2026年10月8日发布。",
+            "此次更新包含错误修复。",
+            "修正了自定义语音创建参数。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "OpenAI发布了3.26.1版本的Python库。"
+            ],
+            "community": [],
+            "questions": []
+          }
+        }
+      },
+      "editionDate": "2026-10-09"
+    },
+    {
+      "id": "live-6ffcd90aa22b-2026-10-09",
+      "title": "anthropic sdk python v1.12.1",
+      "category": "Model",
+      "priority": "High",
+      "date": "Oct 08",
+      "readTime": "2 min",
+      "source": "GitHub Releases",
+      "sourceId": "github",
+      "intelligenceType": "release",
+      "fact": "Anthropic SDK Python version 1.12.1 has been released.",
+      "summary": "The release includes updates to the changelog and notes on Claude Console spend limits. It also matches the package version in uv.lock.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Release version: 1.12.1",
+        "Changelog updates are required for pull requests",
+        "Claude Console spend limits are in early access"
+      ],
+      "topics": [
+        "Coding"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official release",
+          "name": "anthropic sdk python v1.12.1",
+          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.1",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "GitHub API · official release",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "python",
+          "sdk"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "Chores ci: check that pull requests update the changelog docs: note that listing Claude Console spend limits is in early access internal: match the package version in uv.lock",
+          "Chores ci: check that pull requests update the changelog docs: note that listing Claude Console spend limits is in early access internal: match…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Anthropic SDK Python 版本 1.12.1 发布",
+          "fact": "Anthropic SDK Python 版本 1.12.1 已发布。",
+          "summary": "此次发布更新了变更日志，并说明了 Claude Console 的消费限制。还匹配了 uv.lock 中的包版本。",
+          "highlights": [
+            "发布版本：1.12.1",
+            "拉取请求需要更新变更日志",
+            "Claude Console 消费限制处于早期访问阶段"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "Anthropic SDK Python 版本 1.12.1 已发布"
+            ],
+            "community": [],
+            "questions": []
+          }
+        }
+      },
+      "editionDate": "2026-10-09"
+    },
+    {
+      "id": "talent-snapshot-2026-10-09",
+      "title": "AI talent openings snapshot · 2026-10-09",
+      "category": "Talent",
+      "priority": "Medium",
+      "date": "Oct 09",
+      "readTime": "2 min",
+      "source": "Official careers snapshot",
+      "sourceId": "talent-snapshot",
+      "intelligenceType": "talent-trend",
+      "fact": "On 2026-10-09, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+      "summary": "On 2026-10-09, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages. 1 newly observed, 1 no longer observed, and 1 changed since the prior snapshot.",
+      "summaryKind": "curated",
+      "highlights": [
+        "On 2026-10-09, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+        "1 newly observed, 1 no longer observed, and 1 changed since the prior snapshot."
+      ],
+      "topics": [
+        "OpenAI",
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 72,
+          "why": "Use the snapshot as supporting evidence of competitor capability investment, not as proof of a broad market trend."
+        },
+        "HR & Recruiting": {
+          "score": 74,
+          "why": "Use this recruiting snapshot only as supporting evidence. Promote a signal after repeated roles, skills, or organization changes appear."
+        }
+      },
+      "hrSignal": {
+        "category": "TalentDemand",
+        "basis": [
+          "official job snapshot"
+        ],
+        "focus": "Use this recruiting snapshot only as supporting evidence; repeated changes are required before calling it a talent trend.",
+        "focusZh": "岗位快照仅作为辅助证据；只有岗位、技能或组织变化持续重复出现时，才升级为人才趋势。"
+      },
+      "talent": {
+        "skills": [
+          "Python",
+          "Applied AI",
+          "Systems thinking"
+        ],
+        "roles": [
+          "AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Compare repeated openings and role changes before treating one job post as a talent trend.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer",
+          "url": "https://openai.com/careers/research-engineer-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Engineering Manager ChatGPT Core Product",
+          "url": "https://openai.com/careers/engineering-manager-chatgpt-core-product-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer, Retrieval & Search, Applied Engineering",
+          "url": "https://openai.com/careers/research-engineer-retrieval-and-search-applied-engineering-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Applied AI, Research Engineer at",
+          "url": "https://anthropic.com/careers/jobs/5390811008",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Research Engineer/Research Scientist, Pre training at",
+          "url": "https://anthropic.com/careers/jobs/4616971008",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Official careers · daily snapshot",
+      "evidenceStatus": "Official source",
+      "claims": {
+        "confirmed": [
+          "On 2026-10-09, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which changes persist across subsequent daily snapshots?"
+        ]
+      },
+      "translations": {
+        "zh": {
+          "title": "AI 人才岗位快照：5 个在招信号",
+          "fact": "2026-10-09，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。",
+          "summary": "2026-10-09，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。；较上一快照新增 1 个、未再观察到 1 个、内容变化 1 个。",
+          "highlights": [
+            "2026-10-09，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。",
+            "较上一快照新增 1 个、未再观察到 1 个、内容变化 1 个。"
+          ],
+          "claims": {
+            "confirmed": [
+              "2026-10-09，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。"
+            ],
+            "vendor": [],
+            "community": [],
+            "questions": [
+              "这些变化是否会在后续每日快照中持续？"
+            ]
+          },
+          "roles": {
+            "Executive": "将岗位快照作为竞品能力投入的辅助证据，不能据此直接推断整体市场趋势。",
+            "HR & Recruiting": "岗位快照仅作为辅助证据；连续出现的岗位、技能或组织变化才构成人才趋势。"
+          }
+        }
+      },
+      "editionDate": "2026-10-09"
+    },
+    {
+      "id": "live-6f254eb243df-2026-10-08",
+      "title": "GPT 6 Sol and GPT 6 Luna: October 2026 update OpenAI Deployment Safety Hub",
+      "category": "Model",
+      "priority": "High",
+      "date": "Oct 08",
+      "readTime": "8 min",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "intelligenceType": "market",
+      "fact": "OpenAI launched GPT-6 Sol and GPT-6 Luna on October 7, 2026, replacing GPT-5.6 models in ChatGPT.",
+      "summary": "OpenAI has released GPT-6 models globally for ChatGPT users. These models incorporate safety advancements and show improved resistance to misuse compared to previous versions.",
+      "summaryKind": "ai",
+      "highlights": [
+        "GPT-6 models replace GPT-5.6 Sol and Luna in ChatGPT.",
+        "Safety evaluations indicate stronger resistance to jailbreaks and reduced dishonesty.",
+        "GPT-6 Sol and Luna are assessed as high capability in cybersecurity and biological domains."
+      ],
+      "topics": [
+        "OpenAI"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "GPT 6 Sol and GPT 6 Luna: October 2026 update OpenAI Deployment Safety Hub",
+          "url": "https://deploymentsafety.openai.com/gpt-6-october",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official report",
+          "name": "GPT 6 Sol and GPT 6 Luna: October 2026 update",
+          "url": "https://cdn.openai.com/pdf/gpt-6-october.pdf",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "Under our Preparedness Framework, we are treating this October release of GPT 6 Sol and GPT 6 Luna as High capability in both Cybersecurity and Biological and Chemical domains. Neither one reaches our High threshold in AI Self Improvement.",
+          "Skip to content Deployment Safety Hub View PDF↗ Published October 7, 2026 GPT 6 Sol and GPT 6 Luna: October 2026 update 1.",
+          "Introduction We’re launching GPT 6 to everyone in ChatGPT, across free and paid plans globally.",
+          "These models will replace GPT 5.6 Sol and GPT 5.6 Luna in ChatGPT."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "OpenAI发布GPT-6模型",
+          "fact": "OpenAI于2026年10月7日发布了GPT-6 Sol和GPT-6 Luna，取代了GPT-5.6模型。",
+          "summary": "OpenAI全球推出GPT-6模型，供ChatGPT用户使用。这些模型结合了安全性进步，并显示出比之前版本更强的抵抗滥用能力。",
+          "highlights": [
+            "GPT-6模型取代了ChatGPT中的GPT-5.6 Sol和Luna。",
+            "安全评估显示对越狱攻击的抵抗力更强，减少了不诚实行为。",
+            "GPT-6 Sol和Luna在网络安全和生物领域被评估为高能力。"
+          ],
+          "claims": {
+            "confirmed": [
+              "OpenAI于2026年10月7日发布了GPT-6 Sol和GPT-6 Luna。",
+              "GPT-6模型结合了Astra的安全性进步，并更新了安全培训。",
+              "GPT-6 Sol和Luna在网络安全和生物化学领域被评估为高能力。"
+            ],
+            "vendor": [
+              "GPT-6模型在安全性评估中显示出更强的抵抗力。",
+              "GPT-6 Sol和Luna在处理敏感请求时表现出更高的有用性。"
+            ],
+            "community": [],
+            "questions": [
+              "GPT-6 Sol和Luna在AI自我改进方面的能力如何？",
+              "GPT-6模型在青少年用户的安全性表现如何？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-08"
+    },
+    {
+      "id": "live-31778891b5f8-2026-10-08",
+      "suppressed": true,
+      "title": "GPT 6 Sol and GPT 6 Luna: October 2026 update",
+      "category": "Model",
+      "priority": "High",
+      "date": "Oct 08",
+      "readTime": "8 min",
+      "source": "OpenAI",
+      "sourceId": "openai",
+      "intelligenceType": "market",
+      "fact": "OpenAI launched GPT-6 Sol and GPT-6 Luna on October 7, 2026, replacing GPT-5.6 models in ChatGPT.",
+      "summary": "OpenAI has released GPT-6 Sol and GPT-6 Luna, which incorporate safety advances and improved resistance to misuse. These models are now available globally across free and paid plans.",
+      "summaryKind": "ai",
+      "highlights": [
+        "GPT-6 models replace GPT-5.6 in ChatGPT.",
+        "Safety training has been updated to enhance protections against misuse.",
+        "GPT-6 shows stronger resistance to jailbreaks and reductions in dishonesty."
+      ],
+      "topics": [
+        "OpenAI"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "GPT 6 Sol and GPT 6 Luna: October 2026 update",
+          "url": "https://cdn.openai.com/pdf/gpt-6-october.pdf",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "21 OpenAI As noted in the GPT 6 Astra System Card, results may be inflated by exposure to historical vulnerabilities in the public benchmark. 8.1.2.2 SEC Bench Pro SEC Bench Pro evaluates models’ ability to discover vulnerabilities in large JavaScript engines, including V8 and SpiderMonkey.",
+          "2026 10 07 1 Introduction We’re launching GPT 6 to everyone in ChatGPT, across free and paid plans globally.",
+          "These models will replace GPT 5.6 Sol and GPT 5.6 Luna in Chat GPT.",
+          "Users accessing GPT 6 Sol and GPT 6 Luna in Codex, and via ChatGPT Work, are still using previously released versions."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "OpenAI 发布 GPT-6 Sol 和 Luna",
+          "fact": "OpenAI 于2026年10月7日发布了 GPT-6 Sol 和 GPT-6 Luna，取代了 ChatGPT 中的 GPT-5.6 模型。",
+          "summary": "OpenAI 发布了 GPT-6 Sol 和 GPT-6 Luna，这些模型结合了安全性进步和对滥用的更强抵抗力。新模型现已在全球的免费和付费计划中提供。",
+          "highlights": [
+            "GPT-6 模型取代了 ChatGPT 中的 GPT-5.6。",
+            "安全培训已更新，以增强对滥用的保护。",
+            "GPT-6 显示出对越狱攻击的更强抵抗力和对不诚实行为的减少。"
+          ],
+          "claims": {
+            "confirmed": [
+              "GPT-6 Sol 和 Luna 于2026年10月7日发布。",
+              "新模型在安全性方面进行了更新，以应对现实世界的使用情况。"
+            ],
+            "vendor": [
+              "GPT-6 模型在网络安全和生物化学领域被评估为高能力。",
+              "GPT-6 Sol 和 Luna 在处理敏感请求时表现出更高的有用性。"
+            ],
+            "community": [],
+            "questions": [
+              "GPT-6 Sol 和 Luna 在 AI 自我改进能力方面的表现如何？",
+              "GPT-6 模型在处理青少年用户时的具体安全措施是什么？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-08"
+    },
+    {
+      "id": "live-37e8774980e7-2026-10-08",
+      "title": "Claude Haiku 5.5 System Card",
+      "category": "Model",
+      "priority": "High",
+      "date": "Oct 08",
+      "readTime": "8 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Claude Haiku 5.5 is the latest large language model from Anthropic, significantly outperforming its predecessor Claude Haiku 4.5 across many domains.",
+      "summary": "Claude Haiku 5.5 has shown substantial improvements over Claude Haiku 4.5 in various evaluations. However, it remains less capable than Claude Opus 5 across domains.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Claude Haiku 5.5 outperforms Claude Haiku 4.5 in many areas.",
+        "It is less capable than Claude Opus 5 across domains.",
+        "The model shows improvements in safeguards and harmlessness performance."
+      ],
+      "topics": [
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Claude Haiku 5.5 System Card",
+          "url": "https://anthropic.com/document/claude-haiku-5-5-system-card",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "evaluation"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "System Card: Claude Haiku 5.5 October 7, 2026 anthropic.com Executive summary This system card describes Claude Haiku 5.5, the latest Haiku class large language model from Anthropic. We present results from a wide variety of pre deployment evaluations, which show Claude Haiku 5.5 signi fi cantly outperforming its predecessor, Claude Haiku 4.5, across many domains.",
+          "System Card:​ Claude Haiku 5.5 October 7, 2026 anthropic.com Executive summary This system card describes Claude Haiku 5.5, the latest Haiku…",
+          "In a few areas, it rivaled or exceeded Claude Sonnet 5.5."
+        ],
+        "vendor": [
+          "We present results from a wide variety of pre deployment evaluations, which show Claude Haiku 5.5 significantly outperforming its predecessor,…"
+        ],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Claude Haiku 5.5 系统卡",
+          "fact": "Claude Haiku 5.5 是 Anthropic 最新的大型语言模型，在多个领域显著超越其前身 Claude Haiku 4.5。",
+          "summary": "Claude Haiku 5.5 在多项评估中表现出显著的改进，但在各领域仍不及 Claude Opus 5。该模型在安全性和无害性表现上有所提升。",
+          "highlights": [
+            "Claude Haiku 5.5 在多个领域超越 Claude Haiku 4.5。",
+            "在各领域能力上不及 Claude Opus 5。",
+            "该模型在安全性和无害性表现上有所提升。"
+          ],
+          "claims": {
+            "confirmed": [
+              "Claude Haiku 5.5 在多个领域显著超越 Claude Haiku 4.5。"
+            ],
+            "vendor": [
+              "Claude Haiku 5.5 的安全性和无害性表现有所提升。"
+            ],
+            "community": [],
+            "questions": [
+              "Claude Haiku 5.5 在特定领域的表现如何？",
+              "与 Claude Opus 5 相比，Claude Haiku 5.5 的具体不足之处是什么？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-08"
+    },
+    {
+      "id": "live-9535cea5f62a-2026-10-08",
+      "title": "anthropic sdk python v1.12.0",
+      "category": "Model",
+      "priority": "High",
+      "date": "Oct 08",
+      "readTime": "4 min",
+      "source": "GitHub Releases",
+      "sourceId": "github",
+      "intelligenceType": "release",
+      "fact": "Anthropic SDK Python version 1.12.0 was released on October 7, 2026.",
+      "summary": "The release includes several new features and updates. Notable additions are the Claude Haiku 5 5 and enhancements to model capabilities.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Added Claude Haiku 5 5 and typed computer and browser toolset tool calls.",
+        "Introduced disabled status for thinking types in model capabilities.",
+        "Added lifecycle stage fields and filter to /v1/models."
+      ],
+      "topics": [
+        "Coding"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official release",
+          "name": "anthropic sdk python v1.12.0",
+          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.0",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "GitHub API · official release",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "python",
+          "sdk"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "1.12.0 (2026 10 07) Full Changelog: v1.11.0...v1.12.0 Features api: add claude haiku 5 5 and typed computer and browser toolset tool calls (f6346e6) api: add disabled to thinking types in model capabilities (78d815d) api: add display name to RBAC roles and deprecate name (f63f99c) api: add include default parameter to list workspaces (5d4b37b) api: add lifecycle stage fields and filter to /v1/models (0c96c02) api:…",
+          "1.12.0 (2026 10 07) Full Changelog: v1.11.0...v1.12.0 Features api: add claude haiku 5 5 and typed computer and browser toolset tool calls…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Anthropic SDK Python 版本 1.12.0 发布",
+          "fact": "Anthropic SDK Python 版本 1.12.0 于2026年10月7日发布。",
+          "summary": "此次发布包含多个新功能和更新，特别增加了Claude Haiku 5 5及模型能力的增强。还引入了思维类型的禁用状态。",
+          "highlights": [
+            "增加了Claude Haiku 5 5及类型化计算机和浏览器工具集的工具调用。",
+            "在模型能力中引入了思维类型的禁用状态。",
+            "为/v1/models添加了生命周期阶段字段和过滤器。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "增加了Claude Haiku 5 5及类型化计算机和浏览器工具集的工具调用。",
+              "在模型能力中引入了思维类型的禁用状态。",
+              "为/v1/models添加了生命周期阶段字段和过滤器。"
+            ],
+            "community": [],
+            "questions": []
+          }
+        }
+      },
+      "editionDate": "2026-10-08"
+    },
+    {
+      "id": "talent-snapshot-2026-10-08",
+      "title": "AI talent openings snapshot · 2026-10-08",
+      "category": "Talent",
+      "priority": "Medium",
+      "date": "Oct 08",
+      "readTime": "2 min",
+      "source": "Official careers snapshot",
+      "sourceId": "talent-snapshot",
+      "intelligenceType": "talent-trend",
+      "fact": "On 2026-10-08, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+      "summary": "On 2026-10-08, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages. 1 newly observed, 1 no longer observed, and 1 changed since the prior snapshot.",
+      "summaryKind": "curated",
+      "highlights": [
+        "On 2026-10-08, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+        "1 newly observed, 1 no longer observed, and 1 changed since the prior snapshot."
+      ],
+      "topics": [
+        "OpenAI",
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 72,
+          "why": "Use the snapshot as supporting evidence of competitor capability investment, not as proof of a broad market trend."
+        },
+        "HR & Recruiting": {
+          "score": 74,
+          "why": "Use this recruiting snapshot only as supporting evidence. Promote a signal after repeated roles, skills, or organization changes appear."
+        }
+      },
+      "hrSignal": {
+        "category": "TalentDemand",
+        "basis": [
+          "official job snapshot"
+        ],
+        "focus": "Use this recruiting snapshot only as supporting evidence; repeated changes are required before calling it a talent trend.",
+        "focusZh": "岗位快照仅作为辅助证据；只有岗位、技能或组织变化持续重复出现时，才升级为人才趋势。"
+      },
+      "talent": {
+        "skills": [
+          "Python",
+          "Applied AI",
+          "Systems thinking"
+        ],
+        "roles": [
+          "AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Compare repeated openings and role changes before treating one job post as a talent trend.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer",
+          "url": "https://openai.com/careers/research-engineer-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Engineering Manager, Search Product Infra",
+          "url": "https://openai.com/careers/engineering-manager-search-product-infra-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer, Retrieval & Search, Applied Engineering",
+          "url": "https://openai.com/careers/research-engineer-retrieval-and-search-applied-engineering-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Applied AI, Research Engineer at",
+          "url": "https://anthropic.com/careers/jobs/5390811008",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Research Engineer/Research Scientist, Pre training at",
+          "url": "https://anthropic.com/careers/jobs/4616971008",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Official careers · daily snapshot",
+      "evidenceStatus": "Official source",
+      "claims": {
+        "confirmed": [
+          "On 2026-10-08, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which changes persist across subsequent daily snapshots?"
+        ]
+      },
+      "translations": {
+        "zh": {
+          "title": "AI 人才岗位快照：5 个在招信号",
+          "fact": "2026-10-08，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。",
+          "summary": "2026-10-08，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。；较上一快照新增 1 个、未再观察到 1 个、内容变化 1 个。",
+          "highlights": [
+            "2026-10-08，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。",
+            "较上一快照新增 1 个、未再观察到 1 个、内容变化 1 个。"
+          ],
+          "claims": {
+            "confirmed": [
+              "2026-10-08，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。"
+            ],
+            "vendor": [],
+            "community": [],
+            "questions": [
+              "这些变化是否会在后续每日快照中持续？"
+            ]
+          },
+          "roles": {
+            "Executive": "将岗位快照作为竞品能力投入的辅助证据，不能据此直接推断整体市场趋势。",
+            "HR & Recruiting": "岗位快照仅作为辅助证据；连续出现的岗位、技能或组织变化才构成人才趋势。"
+          }
+        }
+      },
+      "editionDate": "2026-10-08"
     }
   ]
 }
