@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-09T04:01:05.875537+00:00",
+  "generatedAt": "2026-10-09T23:42:18.441285+00:00",
   "provider": "Tavily + official APIs",
   "edition": {
-    "date": "2026-10-09",
-    "windowStart": "2026-10-08T07:00:00+08:00",
-    "windowEnd": "2026-10-09T06:59:59+08:00"
+    "date": "2026-10-10",
+    "windowStart": "2026-10-09T07:00:00+08:00",
+    "windowEnd": "2026-10-10T06:59:59+08:00"
   },
   "jobTrends": {
     "state": "compared",
-    "asOf": "2026-10-09",
-    "previousAsOf": "2026-10-07",
+    "asOf": "2026-10-10",
+    "previousAsOf": "2026-10-09",
     "current": 5,
     "newlySeen": [
-      "Engineering Manager ChatGPT Core Product"
+      "Engineering Manager, Core Experimentation"
     ],
     "missing": [
-      "Engineering Manager, Core Experimentation"
+      "Engineering Manager ChatGPT Core Product"
     ],
     "changed": [
       "Job Application for Applied AI, Research Engineer at"
@@ -4557,6 +4557,423 @@
         }
       },
       "editionDate": "2026-10-08"
+    },
+    {
+      "id": "live-781f58c65a0f-2026-10-10",
+      "title": "openai python v3.28.0",
+      "category": "Product",
+      "priority": "High",
+      "date": "Today · 04:49",
+      "readTime": "2 min",
+      "source": "GitHub Releases",
+      "sourceId": "github",
+      "intelligenceType": "release",
+      "fact": "OpenAI released version 3.28.0 of its Python library on October 9, 2026.",
+      "summary": "The new version includes features such as agent environment suspension and expiration. It also updates several dependencies.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Added agent environment suspension and expiration feature.",
+        "Updated PyJWT security constraint to version 2.14.0.",
+        "Bumped astral sh/setup uv from 10.1.0 to 10.2.0."
+      ],
+      "topics": [
+        "AI Agent",
+        "Coding"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "AI product design",
+          "Evaluation",
+          "Workflow design"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Applied AI Engineer"
+        ],
+        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official release",
+          "name": "openai python v3.28.0",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.28.0",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "GitHub API · official release",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "python"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "3.28.0 (2026 10 09) Features api: add agent environment suspension and expiration ( 4046) (6aa25a9) Chores deps: bump astral sh/setup uv from 10.1.0 to 10.2.0 ( 4026) (8bfffd4) deps: bump CodeQL init and analyze to 4.38.2 ( 4025) (4f5e618) deps: update PyJWT security constraint to 2.14.0 ( 3991) (aaed2a7)",
+          "3.28.0 (2026 10 09) Features api: add agent environment suspension and expiration ( 4046) (6aa25a9) Chores deps: bump astral sh/setup uv from…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "OpenAI 发布 Python 库 v3.28.0",
+          "fact": "OpenAI 于2026年10月9日发布了其Python库的3.28.0版本。",
+          "summary": "新版本增加了代理环境暂停和过期的功能，同时更新了多个依赖项。包括将PyJWT安全约束更新至2.14.0。",
+          "highlights": [
+            "增加了代理环境暂停和过期功能。",
+            "将PyJWT安全约束更新至2.14.0。",
+            "将astral sh/setup uv从10.1.0更新至10.2.0。"
+          ],
+          "claims": {
+            "confirmed": [
+              "发布了Python库的3.28.0版本。",
+              "增加了代理环境暂停和过期功能。"
+            ],
+            "vendor": [
+              "更新了PyJWT安全约束至2.14.0。",
+              "将astral sh/setup uv从10.1.0更新至10.2.0。"
+            ],
+            "community": [],
+            "questions": []
+          }
+        }
+      },
+      "editionDate": "2026-10-10"
+    },
+    {
+      "id": "live-1bee7727fbbe-2026-10-10",
+      "title": "openai python v3.27.0",
+      "category": "Product",
+      "priority": "High",
+      "date": "Oct 09",
+      "readTime": "2 min",
+      "source": "GitHub Releases",
+      "sourceId": "github",
+      "intelligenceType": "release",
+      "fact": "OpenAI released Python version 3.27.0 on October 9, 2026, which includes the feature of prewarmed hosted environments.",
+      "summary": "OpenAI has launched Python version 3.27.0. This version introduces prewarmed hosted environments.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Version 3.27.0 was released on October 9, 2026.",
+        "The new feature added is prewarmed hosted environments.",
+        "The release includes updates related to the API."
+      ],
+      "topics": [
+        "Coding"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "AI product design",
+          "Evaluation",
+          "Workflow design"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Applied AI Engineer"
+        ],
+        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official release",
+          "name": "openai python v3.27.0",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.27.0",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "GitHub API · official release",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "python"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "3.27.0 (2026 10 09) Features api: add prewarmed hosted environments ( 4043) (c511a77)"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "OpenAI Python 库更新至 v3.27.0",
+          "fact": "OpenAI 于2026年10月9日发布了 Python 3.27.0，新增了预热托管环境功能。",
+          "summary": "OpenAI 发布了 Python 3.27.0 版本。该版本引入了预热托管环境的功能。",
+          "highlights": [
+            "3.27.0 版本于2026年10月9日发布。",
+            "新增功能为预热托管环境。",
+            "该版本包含与 API 相关的更新。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "新增预热托管环境功能"
+            ],
+            "community": [],
+            "questions": []
+          }
+        }
+      },
+      "editionDate": "2026-10-10"
+    },
+    {
+      "id": "live-e14dbf7e983f-2026-10-10",
+      "title": "anthropic sdk python v1.13.0",
+      "category": "Product",
+      "priority": "High",
+      "date": "Oct 09",
+      "readTime": "2 min",
+      "source": "GitHub Releases",
+      "sourceId": "github",
+      "intelligenceType": "release",
+      "fact": "Anthropic released SDK Python version 1.13.0.",
+      "summary": "The new version includes features for unified analytics metrics and multiagent configuration. It also introduces thread status filtering for Managed Agents.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Added types for the Chat and Cowork unified analytics metrics.",
+        "Introduced workflows and multiagent configuration.",
+        "Implemented thread status filtering for Managed Agents."
+      ],
+      "topics": [
+        "AI Agent"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "AI product design",
+          "Evaluation",
+          "Workflow design"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Applied AI Engineer"
+        ],
+        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official release",
+          "name": "anthropic sdk python v1.13.0",
+          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "GitHub API · official release",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "python",
+          "sdk"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "Features api: add types for the Chat and Cowork unified analytics metrics api: add workflows, multiagent configuration and thread status filtering to Managed Agents Chores internal: name the default API version header value",
+          "Features api: add types for the Chat and Cowork unified analytics metrics api: add workflows, multiagent configuration and thread status…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Anthropic SDK Python 版本 1.13.0 发布",
+          "fact": "Anthropic 发布了 SDK Python 版本 1.13.0。",
+          "summary": "新版本增加了统一分析指标和多代理配置的功能，并引入了对管理代理的线程状态过滤。该版本还命名了默认 API 版本头值。",
+          "highlights": [
+            "增加了聊天和协作统一分析指标的类型。",
+            "引入了工作流和多代理配置。",
+            "实现了对管理代理的线程状态过滤。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "新版本增加了统一分析指标和多代理配置的功能。",
+              "该版本命名了默认 API 版本头值。"
+            ],
+            "community": [],
+            "questions": []
+          }
+        }
+      },
+      "editionDate": "2026-10-10"
+    },
+    {
+      "id": "talent-snapshot-2026-10-10",
+      "title": "AI talent openings snapshot · 2026-10-10",
+      "category": "Talent",
+      "priority": "Medium",
+      "date": "Oct 10",
+      "readTime": "2 min",
+      "source": "Official careers snapshot",
+      "sourceId": "talent-snapshot",
+      "intelligenceType": "talent-trend",
+      "fact": "On 2026-10-10, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+      "summary": "On 2026-10-10, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages. 1 newly observed, 1 no longer observed, and 1 changed since the prior snapshot.",
+      "summaryKind": "curated",
+      "highlights": [
+        "On 2026-10-10, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+        "1 newly observed, 1 no longer observed, and 1 changed since the prior snapshot."
+      ],
+      "topics": [
+        "OpenAI",
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 72,
+          "why": "Use the snapshot as supporting evidence of competitor capability investment, not as proof of a broad market trend."
+        },
+        "HR & Recruiting": {
+          "score": 74,
+          "why": "Use this recruiting snapshot only as supporting evidence. Promote a signal after repeated roles, skills, or organization changes appear."
+        }
+      },
+      "hrSignal": {
+        "category": "TalentDemand",
+        "basis": [
+          "official job snapshot"
+        ],
+        "focus": "Use this recruiting snapshot only as supporting evidence; repeated changes are required before calling it a talent trend.",
+        "focusZh": "岗位快照仅作为辅助证据；只有岗位、技能或组织变化持续重复出现时，才升级为人才趋势。"
+      },
+      "talent": {
+        "skills": [
+          "Python",
+          "Applied AI",
+          "Systems thinking"
+        ],
+        "roles": [
+          "AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Compare repeated openings and role changes before treating one job post as a talent trend.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer",
+          "url": "https://openai.com/careers/research-engineer-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer, Retrieval & Search, Applied Engineering",
+          "url": "https://openai.com/careers/research-engineer-retrieval-and-search-applied-engineering-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Engineering Manager, Core Experimentation",
+          "url": "https://openai.com/careers/engineering-manager-core-experimentation-seattle",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Applied AI, Research Engineer at",
+          "url": "https://anthropic.com/careers/jobs/5390811008",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Research Engineer/Research Scientist, Pre training at",
+          "url": "https://anthropic.com/careers/jobs/4616971008",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Official careers · daily snapshot",
+      "evidenceStatus": "Official source",
+      "claims": {
+        "confirmed": [
+          "On 2026-10-10, AI Radar observed 5 active AI-related openings on the official OpenAI and Anthropic careers pages."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which changes persist across subsequent daily snapshots?"
+        ]
+      },
+      "translations": {
+        "zh": {
+          "title": "AI 人才岗位快照：5 个在招信号",
+          "fact": "2026-10-10，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。",
+          "summary": "2026-10-10，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。；较上一快照新增 1 个、未再观察到 1 个、内容变化 1 个。",
+          "highlights": [
+            "2026-10-10，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。",
+            "较上一快照新增 1 个、未再观察到 1 个、内容变化 1 个。"
+          ],
+          "claims": {
+            "confirmed": [
+              "2026-10-10，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 5 个 AI 相关在招岗位。"
+            ],
+            "vendor": [],
+            "community": [],
+            "questions": [
+              "这些变化是否会在后续每日快照中持续？"
+            ]
+          },
+          "roles": {
+            "Executive": "将岗位快照作为竞品能力投入的辅助证据，不能据此直接推断整体市场趋势。",
+            "HR & Recruiting": "岗位快照仅作为辅助证据；连续出现的岗位、技能或组织变化才构成人才趋势。"
+          }
+        }
+      },
+      "editionDate": "2026-10-10"
     }
   ]
 }
