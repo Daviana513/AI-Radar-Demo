@@ -1,21 +1,19 @@
 {
-  "generatedAt": "2026-10-09T23:42:18.441285+00:00",
+  "generatedAt": "2026-10-13T07:34:56.567411+00:00",
   "provider": "Tavily + official APIs",
   "edition": {
-    "date": "2026-10-10",
-    "windowStart": "2026-10-09T07:00:00+08:00",
-    "windowEnd": "2026-10-10T06:59:59+08:00"
+    "date": "2026-10-13",
+    "windowStart": "2026-10-12T07:00:00+08:00",
+    "windowEnd": "2026-10-13T06:59:59+08:00"
   },
   "jobTrends": {
     "state": "compared",
-    "asOf": "2026-10-10",
-    "previousAsOf": "2026-10-09",
-    "current": 5,
-    "newlySeen": [
-      "Engineering Manager, Core Experimentation"
-    ],
+    "asOf": "2026-10-13",
+    "previousAsOf": "2026-10-10",
+    "current": 4,
+    "newlySeen": [],
     "missing": [
-      "Engineering Manager ChatGPT Core Product"
+      "Job Application for Research Engineer/Research Scientist, Pre training at"
     ],
     "changed": [
       "Job Application for Applied AI, Research Engineer at"
@@ -4974,6 +4972,743 @@
         }
       },
       "editionDate": "2026-10-10"
+    },
+    {
+      "id": "live-fcf6e421796d-2026-10-13",
+      "title": "Strengthening our defenses against distillation attacks",
+      "category": "Model",
+      "priority": "High",
+      "date": "Oct 12",
+      "readTime": "8 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Anthropic has made significant progress in reducing the effectiveness of distillation attacks on its model Claude by approximately 90 to 99 percent.",
+      "summary": "Anthropic has strengthened its defenses against distillation attacks on Claude. New methods have significantly reduced data harvesting by attackers.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Distillation attacks aim to replicate model capabilities without authorization.",
+        "New defenses have been implemented to disrupt extraction attempts.",
+        "The effectiveness of these defenses has been evaluated, showing a significant reduction in successful attacks."
+      ],
+      "topics": [
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Strengthening our defenses against distillation attacks",
+          "url": "https://anthropic.com/research/distillation-defenses",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "Zhipu, for example, distilled the cyber capabilities of leading US models during the development of GLM 5.3. The company tried to distill Claude Fable 5—although, after finding that our cyber safeguards degraded its attacks, it switched to an older Claude model and another lab’s model.",
+          "In recent months, we’ve made substantial progress on reducing the effectiveness of distillation attacks on Claude using new methods, as we…",
+          "Early evidence suggests that these methods have reduced the amount of data harvested by distillers by around 90 to 99 percent.",
+          "Distillation attacks are covert, industrial scale campaigns to extract the capabilities of one model and replicate them in another, without the…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "加强对蒸馏攻击的防御",
+          "fact": "Anthropic 在减少对其模型 Claude 的蒸馏攻击有效性方面取得了显著进展，降低幅度约为 90% 至 99%。",
+          "summary": "Anthropic 加强了对 Claude 的蒸馏攻击防御。新方法显著减少了攻击者的数据收集能力。",
+          "highlights": [
+            "蒸馏攻击旨在未经授权复制模型能力。",
+            "已实施新防御措施以干扰提取尝试。",
+            "这些防御措施的有效性经过评估，显示成功攻击显著减少。"
+          ],
+          "claims": {
+            "confirmed": [
+              "Anthropic 已经减少了蒸馏攻击的有效性，降低幅度约为 90% 至 99%。"
+            ],
+            "vendor": [
+              "新防御措施已成功实施以干扰提取尝试。",
+              "蒸馏攻击的防御措施经过评估，显示成功攻击显著减少。"
+            ],
+            "community": [],
+            "questions": [
+              "新防御措施对合法用户的影响是什么？",
+              "攻击者是否会找到绕过新防御的方法？",
+              "未来是否会有更多的蒸馏攻击案例出现？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-13"
+    },
+    {
+      "id": "live-745c37586581-2026-10-13",
+      "title": "AI models may be capable of self replicating without access to a datacenter",
+      "category": "Model",
+      "priority": "High",
+      "date": "Today · 03:30",
+      "readTime": "8 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Small AI models may soon be capable of self-replicating on commercial IoT devices without access to a datacenter.",
+      "summary": "Experiments suggest that small AI models could replicate autonomously on IoT devices. This poses a challenge for cybersecurity due to the decentralized nature of such systems.",
+      "summaryKind": "ai",
+      "highlights": [
+        "A 9B model successfully ran inference on 8 out of 9 tested hardware types.",
+        "Models with 30B parameters and under can already perform many replication steps.",
+        "Small weight-based replicators may become feasible soon."
+      ],
+      "topics": [
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "AI models may be capable of self replicating without access to a datacenter",
+          "url": "https://anthropic.com/research/self-replicating-ai",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "cyber"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "It appears that GLM 5.2 is able to propagate Llama3.1 8B well, which suggests that future small models of the same capability level could also complete the network enumeration, payload delivery, and inference standup steps of the replication process. Our evaluation keeps the cyber exploit element of the replication trivial (there’s no authentication over the ADB port), which makes this an upper bound on real world…",
+          "William Zhou, Daniel Freeman Our experiments suggest that small AI models may be months away from being capable enough to self replicate on…",
+          "A replicator like this would be challenging to shut down, since there’s no centralized point to shut off though it may be slow (with a doubling…",
+          "Unlike non AI malware, it could also figure out unfamiliar devices on its own."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "小型 AI 模型可能在无数据中心的情况下自我复制",
+          "fact": "实验表明，小型 AI 模型可能在不依赖数据中心的情况下，能够在商业物联网设备上自我复制。",
+          "summary": "研究表明，小型 AI 模型可能很快能够在物联网设备上自主复制。这种去中心化的特性给网络安全带来了挑战。",
+          "highlights": [
+            "一款 9B 模型在 9 种测试硬件中成功运行了 8 种。",
+            "30B 参数及以下的模型已经能够完成多个复制步骤。",
+            "小型基于权重的复制器可能很快就会变得可行。"
+          ],
+          "claims": {
+            "confirmed": [
+              "小型 AI 模型可能在商业物联网设备上自我复制。"
+            ],
+            "vendor": [
+              "小型模型在设置推理服务器方面表现良好。"
+            ],
+            "community": [
+              "小型模型在网络安全方面的威胁日益增加。"
+            ],
+            "questions": [
+              "小型模型在不同硬件上自我复制的具体能力如何？",
+              "如何有效防御这种去中心化的自我复制 AI 模型？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-13"
+    },
+    {
+      "id": "live-6e6ad3de8b85-2026-10-13",
+      "title": "Claude Code Claude by",
+      "category": "Product",
+      "priority": "High",
+      "date": "Today · 00:00",
+      "readTime": "3 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Claude Code offers a series of webinars to help organizations implement advanced coding practices.",
+      "summary": "Claude Code provides resources for teams to learn about agentic coding patterns and advanced implementations. Webinars cover workflows, new releases, and practical applications.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Webinars include topics like project-aware setups and productivity gains.",
+        "Participants can register once to access all sessions and recordings.",
+        "The series features direct Q&A with the Claude Code team."
+      ],
+      "topics": [
+        "Claude",
+        "AI Search",
+        "Coding"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "AI product design",
+          "Evaluation",
+          "Workflow design"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Applied AI Engineer"
+        ],
+        "signal": "Watch for roles that translate new capabilities into reliable user workflows.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Claude Code Claude by",
+          "url": "https://anthropic.com/webinar-series/claude-code",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "WorkChange",
+        "basis": [
+          "workflow"
+        ],
+        "focus": "The source directly changes a tool or workflow. Identify the affected tasks before changing role definitions or staffing plans.",
+        "focusZh": "原文直接涉及工具或工作流变化；应先识别受影响的具体任务，再调整岗位定义或人员规划。"
+      },
+      "claims": {
+        "confirmed": [
+          "Build a persistent, project aware setup with CLAUDE.md, smart prompting, and structured workflows Control Claude’s behavior with CLAUDE.md and Hooks Parallelize Claude for major productivity gains Embed Claude Code across your SDLC, from feature research to CI/CD Use the latest features we’ve shipped the same way the Claude Code team uses them Register once and we'll add you to every session. Recordings will be…",
+          "Contact salesTry Claude From manual coding to multi agent orchestration No matter where you are in your journey, this series has you covered.",
+          "Get started with Claude Code in an hour, scale your team up with agentic coding patterns, and learn what an advanced Claude Code implementation…",
+          "Register for all webinars You’ll walk through workflows the Claude Code team actually uses, hear about new releases from the people who shipped…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Claude Code 网络研讨会",
+          "fact": "Claude Code 提供一系列网络研讨会，帮助组织实施高级编码实践。",
+          "summary": "Claude Code 为团队提供学习代理编码模式和高级实现的资源。网络研讨会涵盖工作流程、新版本和实际应用。",
+          "highlights": [
+            "网络研讨会包括项目感知设置和生产力提升等主题。",
+            "参与者一次注册即可访问所有会议和录音。",
+            "该系列提供与 Claude Code 团队的直接问答环节。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "Claude Code 提供的网络研讨会帮助组织实施高级编码实践。",
+              "参与者可以通过注册一次来访问所有会议和录音。"
+            ],
+            "community": [],
+            "questions": [
+              "如何评估 Claude Code 在不同组织中的实际应用效果？",
+              "网络研讨会的内容是否会定期更新以反映最新的技术进展？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-13"
+    },
+    {
+      "id": "live-4cd03556e995-2026-10-13",
+      "title": "Claude Code in an hour: A developer's intro Claude by",
+      "category": "Model",
+      "priority": "High",
+      "date": "Today · 01:00",
+      "readTime": "3 min",
+      "source": "Anthropic Workforce",
+      "sourceId": "anthropic-workforce",
+      "intelligenceType": "workforce",
+      "fact": "Claude Code allows developers to delegate coding tasks directly from their terminal.",
+      "summary": "Claude Code is designed for developers to manage coding tasks efficiently. It provides a hands-on session to learn its functionalities.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Claude Code enables exploring codebases, writing tests, fixing bugs, and committing code.",
+        "The session is aimed at developers with some coding experience but new to Claude Code.",
+        "A live demo will showcase a complete development task."
+      ],
+      "topics": [
+        "Claude",
+        "AI Agent",
+        "Coding"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 94,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Claude Code in an hour: A developer's intro Claude by",
+          "url": "https://anthropic.com/webinars/claude-code-in-an-hour-a-developers-intro",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "developer",
+          "coding",
+          "code"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "Emily Gray GTM @ Anthropic Ali Shazal Applied AI @ Anthropic What you’ll learn How Claude Code went from autocomplete to autonomous agent — and what that means for your daily workflow Get Claude Code installed and running in minutes, and understand how to give it the right context from day one See how CLAUDE.md, smart prompting, and structured workflows help you build a persistent, project aware setup from day one…",
+          "Claude Resources On demand Claude Code in an Hour: A Developer's Intro Claude Code lets you delegate real coding work directly from your…",
+          "This hands on session is built for developers who are comfortable in a terminal and have some coding experience, but are new to Claude Code.",
+          "No AI expertise required — just bring a codebase you care about."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Claude Code开发者入门",
+          "fact": "Claude Code允许开发者直接从终端委派编码任务，提升工作效率。",
+          "summary": "Claude Code旨在帮助开发者高效管理编码任务，提供实操课程以学习其功能。课程包括实时演示，展示完整的开发任务。",
+          "highlights": [
+            "Claude Code支持探索代码库、编写测试、修复错误和提交代码。",
+            "该课程面向有一定编码经验但对Claude Code不熟悉的开发者。",
+            "课程将展示完整的开发任务的实时演示。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "Claude Code可以从自动补全发展为自主代理，改变日常工作流程。",
+              "Claude Code可以在几分钟内安装并运行，帮助用户从第一天起提供正确的上下文。"
+            ],
+            "community": [],
+            "questions": [
+              "Claude Code如何具体提升开发者的工作效率？",
+              "是否有案例展示Claude Code在实际项目中的应用效果？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-13"
+    },
+    {
+      "id": "live-fef7e9d43aa7-2026-10-13",
+      "title": "Claude for business development representatives Claude by",
+      "category": "Model",
+      "priority": "High",
+      "date": "Oct 12",
+      "readTime": "3 min",
+      "source": "Anthropic Workforce",
+      "sourceId": "anthropic-workforce",
+      "intelligenceType": "workforce",
+      "fact": "Anthropic's business development team uses Claude Cowork workflows to manage email replies and account research.",
+      "summary": "Claude Cowork helps business development representatives automate email replies and identify warm signals in accounts. This improves efficiency and focus for the team.",
+      "summaryKind": "ai",
+      "highlights": [
+        "The team transformed an inbox from 50 emails a day to hundreds with automated replies.",
+        "An overnight account sweep checks for hiring intent and funding news.",
+        "The workflows can be set up with specific connectors and skills for business development."
+      ],
+      "topics": [
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 94,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Claude for business development representatives Claude by",
+          "url": "https://anthropic.com/webinars/claude-for-business-development-representatives",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "WorkChange",
+        "basis": [
+          "workflow"
+        ],
+        "focus": "The source directly changes a tool or workflow. Identify the affected tasks before changing role definitions or staffing plans.",
+        "focusZh": "原文直接涉及工具或工作流变化；应先识别受影响的具体任务，再调整岗位定义或人员规划。"
+      },
+      "claims": {
+        "confirmed": [
+          "What you’ll learn How to get started. Set up Claude Cowork with the connectors and skills your business development workflows need.",
+          "Claude Resources On demand Claude for Business Development Representatives See the Claude Cowork workflows Anthropic's business development…",
+          "John Albert and Taylre Duarte will walk through how they turned an inbox that grew from 50 emails a day to hundreds into one that drafts…",
+          "Then they'll show the overnight account sweep that checks accounts for warm signals like hiring intent and funding news, so the team already…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Claude助力业务发展代表",
+          "fact": "Anthropic的业务发展团队使用Claude Cowork工作流程来管理电子邮件回复和账户研究。",
+          "summary": "Claude Cowork帮助业务发展代表自动化电子邮件回复，并识别账户中的温暖信号，从而提高团队的效率和专注度。该系统能够将50封邮件的收件箱转变为数百封邮件。",
+          "highlights": [
+            "团队将收件箱从每天50封邮件转变为数百封，使用自动回复功能。",
+            "夜间账户扫描检查招聘意向和融资新闻。",
+            "工作流程可以根据业务发展需求设置特定的连接器和技能。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "Claude Cowork可以将收件箱转变为自动回复的系统。",
+              "Claude Cowork能够识别招聘意向和融资新闻等温暖信号。"
+            ],
+            "community": [],
+            "questions": [
+              "Claude Cowork的具体连接器和技能有哪些？",
+              "如何评估Claude Cowork在不同业务场景中的有效性？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-13"
+    },
+    {
+      "id": "live-b6603a0a4aa6-2026-10-13",
+      "title": "GLM Legal: Advancing Agentic Legal Intelligence",
+      "category": "Model",
+      "priority": "High",
+      "date": "Today · 00:08",
+      "readTime": "8 min",
+      "source": "GLM",
+      "sourceId": "glm",
+      "intelligenceType": "market",
+      "fact": "GLM-Legal achieved a 19.2% all-pass rate on Harvey LAB while matching frontier closed-source models on LegalBench and PLawBench.",
+      "summary": "GLM-Legal demonstrates high performance in legal task execution and reasoning. It is designed for efficient training and real-world legal workflows.",
+      "summaryKind": "ai",
+      "highlights": [
+        "GLM-Legal scores 19.2% on Harvey LAB, improving by 12.5 percentage points.",
+        "It matches top closed-source models in parsing specialized legal documents.",
+        "GLM-Legal achieves parity with leading systems in Chinese legal consultation."
+      ],
+      "topics": [
+        "GLM",
+        "AI Agent"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "GLM Legal: Advancing Agentic Legal Intelligence",
+          "url": "https://z.ai/blog/glm-legal",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "TalentDemand",
+        "basis": [
+          "training"
+        ],
+        "focus": "The source provides direct capability-development evidence. Track participation and outcomes before treating it as a broader talent trend.",
+        "focusZh": "原文提供了能力培养的直接证据；需继续观察参与范围与结果，再判断是否形成更广泛的人才趋势。"
+      },
+      "claims": {
+        "confirmed": [
+          "Legal practice demands an unbroken chain between facts, statutory doctrine, analytical reasoning, and client ready work product. When given a professional task, an agent must extract core issues from source documents, build defensible arguments, and format its findings to exact task specifications.",
+          "Consultation Try AutoClaw Large language models are shifting from single turn code generation toward broader professional collaboration…",
+          "Real world knowledge work introduces distinct requirements: models must digest fragmented source files under concrete objectives and tight…",
+          "Legal work concentrates on these challenges, providing an ideal stress test for training models to operate in high stakes professional…"
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "GLM Legal：推进代理法律智能",
+          "fact": "GLM-Legal在Harvey LAB上获得19.2%的全通过率，并在LegalBench和PLawBench上与顶尖闭源模型相匹配。",
+          "summary": "GLM-Legal在法律任务执行和推理方面表现出色，旨在实现高效训练和真实法律工作流程。该模型为高风险专业环境中的法律工作提供了理想的测试。",
+          "highlights": [
+            "GLM-Legal在Harvey LAB上得分19.2%，提高了12.5个百分点。",
+            "在解析专业法律文件方面与顶尖闭源模型相匹配。",
+            "在中国法律咨询中与领先系统实现平价。"
+          ],
+          "claims": {
+            "confirmed": [
+              "GLM-Legal在Harvey LAB上获得19.2%的全通过率。",
+              "GLM-Legal在LegalBench和PLawBench上与顶尖闭源模型相匹配。"
+            ],
+            "vendor": [
+              "GLM-Legal优先考虑训练效率，基于轻量级GLM-5.3-Flash基础构建。",
+              "GLM-Legal通过强化学习在数万个真实法律环境中进行后训练。"
+            ],
+            "community": [],
+            "questions": [
+              "GLM-Legal在其他法律领域的表现如何？",
+              "该模型在处理复杂法律问题时的具体优势是什么？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-13"
+    },
+    {
+      "id": "talent-snapshot-2026-10-13",
+      "title": "AI talent openings snapshot · 2026-10-13",
+      "category": "Talent",
+      "priority": "Medium",
+      "date": "Oct 13",
+      "readTime": "2 min",
+      "source": "Official careers snapshot",
+      "sourceId": "talent-snapshot",
+      "intelligenceType": "talent-trend",
+      "fact": "On 2026-10-13, AI Radar observed 4 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+      "summary": "On 2026-10-13, AI Radar observed 4 active AI-related openings on the official OpenAI and Anthropic careers pages. 0 newly observed, 1 no longer observed, and 1 changed since the prior snapshot.",
+      "summaryKind": "curated",
+      "highlights": [
+        "On 2026-10-13, AI Radar observed 4 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+        "0 newly observed, 1 no longer observed, and 1 changed since the prior snapshot."
+      ],
+      "topics": [
+        "OpenAI",
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 72,
+          "why": "Use the snapshot as supporting evidence of competitor capability investment, not as proof of a broad market trend."
+        },
+        "HR & Recruiting": {
+          "score": 74,
+          "why": "Use this recruiting snapshot only as supporting evidence. Promote a signal after repeated roles, skills, or organization changes appear."
+        }
+      },
+      "hrSignal": {
+        "category": "TalentDemand",
+        "basis": [
+          "official job snapshot"
+        ],
+        "focus": "Use this recruiting snapshot only as supporting evidence; repeated changes are required before calling it a talent trend.",
+        "focusZh": "岗位快照仅作为辅助证据；只有岗位、技能或组织变化持续重复出现时，才升级为人才趋势。"
+      },
+      "talent": {
+        "skills": [
+          "Python",
+          "Applied AI",
+          "Systems thinking"
+        ],
+        "roles": [
+          "AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Compare repeated openings and role changes before treating one job post as a talent trend.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer",
+          "url": "https://openai.com/careers/research-engineer-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer, Retrieval & Search, Applied Engineering",
+          "url": "https://openai.com/careers/research-engineer-retrieval-and-search-applied-engineering-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Engineering Manager, Core Experimentation",
+          "url": "https://openai.com/careers/engineering-manager-core-experimentation-seattle",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Applied AI, Research Engineer at",
+          "url": "https://anthropic.com/careers/jobs/5390811008",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Official careers · daily snapshot",
+      "evidenceStatus": "Official source",
+      "claims": {
+        "confirmed": [
+          "On 2026-10-13, AI Radar observed 4 active AI-related openings on the official OpenAI and Anthropic careers pages."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which changes persist across subsequent daily snapshots?"
+        ]
+      },
+      "translations": {
+        "zh": {
+          "title": "AI 人才岗位快照：4 个在招信号",
+          "fact": "2026-10-13，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 4 个 AI 相关在招岗位。",
+          "summary": "2026-10-13，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 4 个 AI 相关在招岗位。；较上一快照新增 0 个、未再观察到 1 个、内容变化 1 个。",
+          "highlights": [
+            "2026-10-13，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 4 个 AI 相关在招岗位。",
+            "较上一快照新增 0 个、未再观察到 1 个、内容变化 1 个。"
+          ],
+          "claims": {
+            "confirmed": [
+              "2026-10-13，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 4 个 AI 相关在招岗位。"
+            ],
+            "vendor": [],
+            "community": [],
+            "questions": [
+              "这些变化是否会在后续每日快照中持续？"
+            ]
+          },
+          "roles": {
+            "Executive": "将岗位快照作为竞品能力投入的辅助证据，不能据此直接推断整体市场趋势。",
+            "HR & Recruiting": "岗位快照仅作为辅助证据；连续出现的岗位、技能或组织变化才构成人才趋势。"
+          }
+        }
+      },
+      "editionDate": "2026-10-13"
     }
   ]
 }
