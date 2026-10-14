@@ -1,23 +1,25 @@
 {
-  "generatedAt": "2026-10-13T07:34:56.567411+00:00",
+  "generatedAt": "2026-10-14T07:33:25.275299+00:00",
   "provider": "Tavily + official APIs",
   "edition": {
-    "date": "2026-10-13",
-    "windowStart": "2026-10-12T07:00:00+08:00",
-    "windowEnd": "2026-10-13T06:59:59+08:00"
+    "date": "2026-10-14",
+    "windowStart": "2026-10-13T07:00:00+08:00",
+    "windowEnd": "2026-10-14T06:59:59+08:00"
   },
   "jobTrends": {
     "state": "compared",
-    "asOf": "2026-10-13",
-    "previousAsOf": "2026-10-10",
-    "current": 4,
-    "newlySeen": [],
-    "missing": [
-      "Job Application for Research Engineer/Research Scientist, Pre training at"
+    "asOf": "2026-10-14",
+    "previousAsOf": "2026-10-13",
+    "current": 6,
+    "newlySeen": [
+      "Engineering Manager, Rosalind Workbench",
+      "Job Application for Software Engineer, Research Tools at",
+      "Job Application for Research Engineer, Universes at"
     ],
-    "changed": [
-      "Job Application for Applied AI, Research Engineer at"
-    ]
+    "missing": [
+      "Research Engineer, Retrieval & Search, Applied Engineering"
+    ],
+    "changed": []
   },
   "events": [
     {
@@ -5709,6 +5711,537 @@
         }
       },
       "editionDate": "2026-10-13"
+    },
+    {
+      "id": "live-d6e89e4381e4-2026-10-14",
+      "title": "Redesigning source control at Anthropic",
+      "category": "Model",
+      "priority": "High",
+      "date": "Oct 13",
+      "readTime": "8 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Anthropic migrated to an in-house version control system called Scion in five months to handle increased code merges.",
+      "summary": "Anthropic faced a significant bottleneck in source control as code merges increased dramatically. They developed Scion to improve their version control system, allowing for more efficient handling of code changes.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Anthropic's code merges grew from 2,500 to over 30,000 per day.",
+        "Scion was built to support the unique demands of their large monorepo.",
+        "The system allows for high throughput and efficient handling of changesets."
+      ],
+      "topics": [
+        "Claude",
+        "Coding"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 88,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Redesigning source control at Anthropic",
+          "url": "https://anthropic.com/engineering/redesigning-source-control",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "SkillChange",
+        "basis": [
+          "code"
+        ],
+        "focus": "The source directly changes technical tooling or capability requirements. Track whether the same skills recur across teams and roles.",
+        "focusZh": "原文直接涉及技术工具或能力要求变化；需观察相同技能是否在不同团队和岗位中重复出现。"
+      },
+      "claims": {
+        "confirmed": [
+          "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. We don’t expect this rate of growth to slow down anytime soon; the latent demand for merging code is practically infinite, and every bottleneck we remove immediately leads to a further increase in the amount of code we produce.",
+          "Anthropic Published As our merges per day grew more than tenfold, source control became our biggest development bottleneck.",
+          "Here, we share how we migrated to an in house version control system in five months.",
+          "At Anthropic, coding is no longer the bottleneck to building systems or doing research."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Anthropic重构源代码管理系统",
+          "fact": "Anthropic在五个月内迁移到自家开发的版本控制系统Scion，以应对代码合并量的激增。",
+          "summary": "随着代码合并量的显著增加，Anthropic面临源代码管理的瓶颈。他们开发了Scion，以提高版本控制系统的效率，便于处理代码变更。",
+          "highlights": [
+            "Anthropic的代码合并量从每天2500次增长到超过30000次。",
+            "Scion旨在支持其大型单一代码库的独特需求。",
+            "该系统允许高吞吐量和高效处理变更集。"
+          ],
+          "claims": {
+            "confirmed": [
+              "Anthropic在2026年5月和9月的代码合并量分别为2500和30000次。"
+            ],
+            "vendor": [
+              "Scion是Anthropic开发的内部版本控制系统。"
+            ],
+            "community": [],
+            "questions": [
+              "其他使用AI编码工具的组织是否会面临类似的源代码管理问题？",
+              "Scion的具体技术细节和性能如何？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-14"
+    },
+    {
+      "id": "live-5661042e40f9-2026-10-14",
+      "title": "Claude Science AMA: How to accelerate scientific discovery Claude by",
+      "category": "Industry",
+      "priority": "Medium",
+      "date": "Oct 13",
+      "readTime": "3 min",
+      "source": "Anthropic",
+      "sourceId": "anthropic",
+      "intelligenceType": "market",
+      "fact": "Claude Science is designed to accelerate scientific discovery by serving as an AI workbench for various stages of research.",
+      "summary": "Claude Science aims to streamline scientific research processes. The product team will host a webinar featuring live demos and a Q&A session.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Claude Science addresses the disconnection in scientific tools and databases.",
+        "The webinar will include insights from a hackathon winner working on cancer research.",
+        "Participants can learn about tutorials and best practices for using Claude Science."
+      ],
+      "topics": [
+        "Claude",
+        "AI Search"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 82,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 80,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Market research",
+          "Competitive analysis",
+          "AI strategy"
+        ],
+        "roles": [
+          "AI Product Manager",
+          "Strategy Analyst"
+        ],
+        "signal": "Track repeated company actions before treating a single announcement as an industry shift.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Claude Science AMA: How to accelerate scientific discovery Claude by",
+          "url": "https://anthropic.com/webinars/claude-science-ama-how-to-accelerate-scientific-discovery",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "Faith Ogundimu, PhD Candidate Cancer Epigenomics Research @ RCSI, Claude Science Hackathon Winner Araba Koomson Account Executive @ Anthropic What you’ll learn Why Anthropic built Claude Science, and what problems it solves for scientists Live demos on how Claude accelerates scientific discovery What it takes to get started with tutorials and best practices Transform how your organization operates with Claude Try…",
+          "Claude Resources On demand Claude Science AMA: How to accelerate scientific discovery A scientist's work is scattered across dozens of…",
+          "Claude Science is built to solve this toil as the AI workbench for every stage of scientific research.",
+          "Join our product team for live demos and an open Q&A on how to accelerate scientific discovery."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Claude Science AMA：加速科学发现",
+          "fact": "Claude Science旨在通过提供AI工作台来加速科学研究的各个阶段。",
+          "summary": "Claude Science旨在简化科学研究流程。产品团队将举办网络研讨会，展示实时演示和问答环节。",
+          "highlights": [
+            "Claude Science解决了科学工具和数据库之间的脱节问题。",
+            "网络研讨会将包括一位癌症研究黑客马拉松获胜者的见解。",
+            "参与者可以学习使用Claude Science的教程和最佳实践。"
+          ],
+          "claims": {
+            "confirmed": [
+              "Claude Science旨在加速科学发现。"
+            ],
+            "vendor": [
+              "Claude Science是为科学家构建的AI工作台。"
+            ],
+            "community": [],
+            "questions": [
+              "Claude Science具体如何解决科学研究中的工具和数据库脱节问题？",
+              "网络研讨会的具体内容和参与方式是什么？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-14"
+    },
+    {
+      "id": "live-2ead41c81920-2026-10-14",
+      "title": "Claude Code for data engineering Claude by",
+      "category": "Model",
+      "priority": "High",
+      "date": "Today · 00:00",
+      "readTime": "2 min",
+      "source": "Anthropic Workforce",
+      "sourceId": "anthropic-workforce",
+      "intelligenceType": "workforce",
+      "fact": "Anthropic's data engineering team uses Claude to handle reactive work, allowing engineers to focus on higher-level architecture.",
+      "summary": "Claude assists data engineers in managing pipeline failures and operational signals. This enables a more efficient workflow and proactive issue prevention.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Claude helps design triage workflows that filter operational signals.",
+        "Claude analyzes pipeline failures and orchestrates remediation.",
+        "Automated review bots with Claude catch violations at PR time."
+      ],
+      "topics": [
+        "Claude",
+        "Coding"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 94,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Claude Code for data engineering Claude by",
+          "url": "https://anthropic.com/webinars/claude-code-for-data-engineering",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "hrSignal": {
+        "category": "WorkChange",
+        "basis": [
+          "workflow"
+        ],
+        "focus": "The source directly changes a tool or workflow. Identify the affected tasks before changing role definitions or staffing plans.",
+        "focusZh": "原文直接涉及工具或工作流变化；应先识别受影响的具体任务，再调整岗位定义或人员规划。"
+      },
+      "claims": {
+        "confirmed": [
+          "What you’ll learn How to design a Claude powered triage workflow that aggregates operational signals, filtering out noise and elucidating action items How to analyze a pipeline failure with Claude as the investigator and orchestrate class wide remediation through Claude How to create automated review bots with Claude that encode known pain points, so violations are caught at PR time How to construct requirements…",
+          "Contact salesTry Claude On demand Claude Code for Data Engineering Data engineers are well acquainted with fire drills.",
+          "A pipeline breaks, but no one knows why or what's impacted downstream.",
+          "A user reports data staleness, but it takes hours to track down the upstream failure."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "Claude在数据工程中的应用",
+          "fact": "Anthropic的数据工程团队利用Claude处理反应性工作，使工程师能够专注于更高层次的架构设计。",
+          "summary": "Claude帮助数据工程师管理管道故障和操作信号，从而提高工作效率并主动预防问题。通过Claude，团队能够更好地设计和实施工作流程。",
+          "highlights": [
+            "Claude帮助设计过滤操作信号的分诊工作流程。",
+            "Claude分析管道故障并协调修复工作。",
+            "使用Claude的自动化审查机器人在PR时捕捉违规行为。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "Claude可以设计分诊工作流程，聚合操作信号并过滤噪音。",
+              "Claude可以作为调查者分析管道故障并协调全班修复。",
+              "Claude可以创建自动化审查机器人，编码已知痛点。"
+            ],
+            "community": [],
+            "questions": [
+              "Claude在处理数据工程中的具体应用效果如何？",
+              "使用Claude的工作流程是否能显著减少故障响应时间？",
+              "Claude如何确保设计文档的有效性和可操作性？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-14"
+    },
+    {
+      "id": "live-fe242508aa61-2026-10-14",
+      "title": "Enterprise readiness: A CISO's guide to deploying Claude Claude by",
+      "category": "Model",
+      "priority": "High",
+      "date": "Today · 03:00",
+      "readTime": "3 min",
+      "source": "Anthropic Workforce",
+      "sourceId": "anthropic-workforce",
+      "intelligenceType": "workforce",
+      "fact": "Anthropic's Dor Fledel and Belinda Neal discuss the successful rollout of Claude Enterprise for organizations.",
+      "summary": "The guide provides insights on deploying Claude Enterprise effectively. It covers deployment models, control families, and scaling successful rollouts.",
+      "summaryKind": "ai",
+      "highlights": [
+        "Choosing between direct and cloud-provider deployment affects data handling and controls.",
+        "Key control families include identity and access, data governance, and audit logging.",
+        "Successful rollouts often start with a scoped beta involving internal early adopters."
+      ],
+      "topics": [
+        "Claude",
+        "AI Agent"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 92,
+          "why": "Review the first-party evidence before using this signal in a product or market decision."
+        },
+        "HR & Recruiting": {
+          "score": 94,
+          "why": "Compare the capability change with current role profiles and competitor hiring demand."
+        }
+      },
+      "talent": {
+        "skills": [
+          "Model evaluation",
+          "Python",
+          "Applied AI"
+        ],
+        "roles": [
+          "Applied AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Watch for hiring demand that connects model capability with measurable product outcomes.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official page",
+          "name": "Enterprise readiness: A CISO's guide to deploying Claude Claude by",
+          "url": "https://anthropic.com/webinars/enterprise-readiness-a-cisos-guide-to-deploying-claude",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Tavily · official",
+      "claims": {
+        "confirmed": [
+          "Contact salesTry Claude On demand Enterprise Readiness: A CISO's Guide to Deploying Claude The best security teams don't block AI. They lead the rollout, with full visibility into who uses it, what data it touches, and what agents can do.",
+          "They lead the rollout, with full visibility into who uses it, what data it touches, and what agents can do.",
+          "Anthropic's Dor Fledel and Belinda Neal will walk through what a successful enterprise rollout looks like, whether you're standing up Claude…"
+        ],
+        "vendor": [
+          "Contact salesTry Claude On demand Enterprise Readiness: A CISO's Guide to Deploying Claude The best security teams don't block AI."
+        ],
+        "community": [],
+        "questions": [
+          "Which capability, reliability, and adoption claims still need independent verification?"
+        ]
+      },
+      "evidenceStatus": "Official source",
+      "summaryProvider": "GPT-4o mini · LaoZhang",
+      "translations": {
+        "zh": {
+          "title": "企业准备：CISO 部署 Claude 的指南",
+          "fact": "Anthropic 的 Dor Fledel 和 Belinda Neal 讨论了 Claude Enterprise 的成功部署。",
+          "summary": "该指南提供了有效部署 Claude Enterprise 的见解，涵盖了部署模型、控制体系和成功扩展的策略。成功的部署通常从内部早期采用者的范围测试开始。",
+          "highlights": [
+            "选择直接部署或云服务提供商部署会影响数据处理和控制。",
+            "关键控制体系包括身份与访问、数据治理和审计日志。",
+            "成功的部署通常从涉及内部早期采用者的范围测试开始。"
+          ],
+          "claims": {
+            "confirmed": [],
+            "vendor": [
+              "Anthropic 提供了关于 Claude Enterprise 部署的指导。",
+              "成功的程序运行范围测试以确保有效性。"
+            ],
+            "community": [],
+            "questions": [
+              "如何选择 Claude 的部署模型？",
+              "Claude Enterprise 中有哪些新的控制体系？",
+              "如何在不失去可见性的情况下从聊天转向 Claude Code？"
+            ]
+          }
+        }
+      },
+      "editionDate": "2026-10-14"
+    },
+    {
+      "id": "talent-snapshot-2026-10-14",
+      "title": "AI talent openings snapshot · 2026-10-14",
+      "category": "Talent",
+      "priority": "Medium",
+      "date": "Oct 14",
+      "readTime": "2 min",
+      "source": "Official careers snapshot",
+      "sourceId": "talent-snapshot",
+      "intelligenceType": "talent-trend",
+      "fact": "On 2026-10-14, AI Radar observed 6 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+      "summary": "On 2026-10-14, AI Radar observed 6 active AI-related openings on the official OpenAI and Anthropic careers pages. 3 newly observed, 1 no longer observed, and 0 changed since the prior snapshot.",
+      "summaryKind": "curated",
+      "highlights": [
+        "On 2026-10-14, AI Radar observed 6 active AI-related openings on the official OpenAI and Anthropic careers pages.",
+        "3 newly observed, 1 no longer observed, and 0 changed since the prior snapshot."
+      ],
+      "topics": [
+        "OpenAI",
+        "Claude"
+      ],
+      "roles": {
+        "Executive": {
+          "score": 72,
+          "why": "Use the snapshot as supporting evidence of competitor capability investment, not as proof of a broad market trend."
+        },
+        "HR & Recruiting": {
+          "score": 74,
+          "why": "Use this recruiting snapshot only as supporting evidence. Promote a signal after repeated roles, skills, or organization changes appear."
+        }
+      },
+      "hrSignal": {
+        "category": "TalentDemand",
+        "basis": [
+          "official job snapshot"
+        ],
+        "focus": "Use this recruiting snapshot only as supporting evidence; repeated changes are required before calling it a talent trend.",
+        "focusZh": "岗位快照仅作为辅助证据；只有岗位、技能或组织变化持续重复出现时，才升级为人才趋势。"
+      },
+      "talent": {
+        "skills": [
+          "Python",
+          "Applied AI",
+          "Systems thinking"
+        ],
+        "roles": [
+          "AI Engineer",
+          "AI Product Manager"
+        ],
+        "signal": "Compare repeated openings and role changes before treating one job post as a talent trend.",
+        "action": "Validate this signal against current job descriptions and interview feedback."
+      },
+      "sources": [
+        {
+          "type": "Official job listing",
+          "name": "Research Engineer",
+          "url": "https://openai.com/careers/research-engineer-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Engineering Manager, Rosalind Workbench",
+          "url": "https://openai.com/careers/engineering-manager-rosalind-workbench-san-francisco",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Engineering Manager, Core Experimentation",
+          "url": "https://openai.com/careers/engineering-manager-core-experimentation-seattle",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Applied AI, Research Engineer at",
+          "url": "https://anthropic.com/careers/jobs/5390811008",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Software Engineer, Research Tools at",
+          "url": "https://anthropic.com/careers/jobs/4981828008",
+          "signal": "Primary facts"
+        },
+        {
+          "type": "Official job listing",
+          "name": "Job Application for Research Engineer, Universes at",
+          "url": "https://anthropic.com/careers/jobs/5061517008",
+          "signal": "Primary facts"
+        }
+      ],
+      "ingestion": "Official careers · daily snapshot",
+      "evidenceStatus": "Official source",
+      "claims": {
+        "confirmed": [
+          "On 2026-10-14, AI Radar observed 6 active AI-related openings on the official OpenAI and Anthropic careers pages."
+        ],
+        "vendor": [],
+        "community": [],
+        "questions": [
+          "Which changes persist across subsequent daily snapshots?"
+        ]
+      },
+      "translations": {
+        "zh": {
+          "title": "AI 人才岗位快照：6 个在招信号",
+          "fact": "2026-10-14，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 6 个 AI 相关在招岗位。",
+          "summary": "2026-10-14，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 6 个 AI 相关在招岗位。；较上一快照新增 3 个、未再观察到 1 个、内容变化 0 个。",
+          "highlights": [
+            "2026-10-14，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 6 个 AI 相关在招岗位。",
+            "较上一快照新增 3 个、未再观察到 1 个、内容变化 0 个。"
+          ],
+          "claims": {
+            "confirmed": [
+              "2026-10-14，AI Radar 在 OpenAI 与 Anthropic 官方招聘页观察到 6 个 AI 相关在招岗位。"
+            ],
+            "vendor": [],
+            "community": [],
+            "questions": [
+              "这些变化是否会在后续每日快照中持续？"
+            ]
+          },
+          "roles": {
+            "Executive": "将岗位快照作为竞品能力投入的辅助证据，不能据此直接推断整体市场趋势。",
+            "HR & Recruiting": "岗位快照仅作为辅助证据；连续出现的岗位、技能或组织变化才构成人才趋势。"
+          }
+        }
+      },
+      "editionDate": "2026-10-14"
     }
   ]
 }
